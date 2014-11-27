@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UINavigationItem *albumButton;
+
+@property (strong,nonatomic) NSMutableArray * data;
+@property (strong, nonatomic) IBOutlet UIView *contentView;
 
 @end
 

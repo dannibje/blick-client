@@ -1,0 +1,13 @@
+PODS:
+  - XLMediaZoom (2.0.1)
+  - ZLSwipeableView (0.0.5)
+
+DEPENDENCIES:
+  - XLMediaZoom
+  - ZLSwipeableView
+
+SPEC CHECKSUMS:
+  XLMediaZoom: 3b32c799e81a0026ef4a9b4bf92f5a8bc7a4838e
+  ZLSwipeableView: d54858e02bbad02e5fb7b3489478d7f92c0628ce
+
+COCOAPODS: 0.34.4

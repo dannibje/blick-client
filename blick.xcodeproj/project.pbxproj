@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751047DD1A26326700C2CC71 /* cardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 751047DC1A26326700C2CC71 /* cardView.m */; };
+		751047E01A2633A700C2CC71 /* infoRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 751047DF1A2633A700C2CC71 /* infoRow.m */; };
 		753862171A24A8A700656A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753862161A24A8A700656A84 /* main.m */; };
 		7538621A1A24A8A700656A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753862191A24A8A700656A84 /* AppDelegate.m */; };
 		7538621D1A24A8A700656A84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538621C1A24A8A700656A84 /* ViewController.m */; };
@@ -14,6 +16,19 @@
 		753862221A24A8A700656A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753862211A24A8A700656A84 /* Images.xcassets */; };
 		753862251A24A8A700656A84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753862231A24A8A700656A84 /* LaunchScreen.xib */; };
 		753862311A24A8A700656A84 /* blickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753862301A24A8A700656A84 /* blickTests.m */; };
+		7538623C1A24AC9100656A84 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538623B1A24AC9100656A84 /* AlbumViewController.m */; };
+		75815BCE1A24DCEF00E0A446 /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75815BCD1A24DCEF00E0A446 /* CustomViewCell.m */; };
+		75815BD51A24E99900E0A446 /* snow1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BCF1A24E99900E0A446 /* snow1.jpeg */; };
+		75815BD61A24E99900E0A446 /* snow2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BD01A24E99900E0A446 /* snow2.jpeg */; };
+		75815BD71A24E99900E0A446 /* snow3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BD11A24E99900E0A446 /* snow3.jpeg */; };
+		75815BD81A24E99900E0A446 /* snow4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BD21A24E99900E0A446 /* snow4.jpeg */; };
+		75815BD91A24E99900E0A446 /* snow5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BD31A24E99900E0A446 /* snow5.jpeg */; };
+		75815BDA1A24E99900E0A446 /* snow6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BD41A24E99900E0A446 /* snow6.jpeg */; };
+		75815BE01A254D3A00E0A446 /* snekkja2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDB1A254D3A00E0A446 /* snekkja2.jpeg */; };
+		75815BE11A254D3A00E0A446 /* snekkja3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDC1A254D3A00E0A446 /* snekkja3.jpeg */; };
+		75815BE21A254D3A00E0A446 /* snekkja4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDD1A254D3A00E0A446 /* snekkja4.jpeg */; };
+		75815BE31A254D3A00E0A446 /* snekkja5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDE1A254D3A00E0A446 /* snekkja5.jpeg */; };
+		75815BE41A254D3A00E0A446 /* snjekkja1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDF1A254D3A00E0A446 /* snjekkja1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C7F721CA60FC98858EE5FE5 /* libPods-blick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751047DB1A26326700C2CC71 /* cardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardView.h; sourceTree = "<group>"; };
+		751047DC1A26326700C2CC71 /* cardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cardView.m; sourceTree = "<group>"; };
+		751047DE1A2633A700C2CC71 /* infoRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoRow.h; sourceTree = "<group>"; };
+		751047DF1A2633A700C2CC71 /* infoRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoRow.m; sourceTree = "<group>"; };
 		753862111A24A8A700656A84 /* blick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753862151A24A8A700656A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753862161A24A8A700656A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,23 @@
 		7538622A1A24A8A700656A84 /* blickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7538622F1A24A8A700656A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753862301A24A8A700656A84 /* blickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blickTests.m; sourceTree = "<group>"; };
+		7538623A1A24AC9100656A84 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		7538623B1A24AC9100656A84 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		75815BCC1A24DCEF00E0A446 /* CustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
+		75815BCD1A24DCEF00E0A446 /* CustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
+		75815BCF1A24E99900E0A446 /* snow1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow1.jpeg; sourceTree = "<group>"; };
+		75815BD01A24E99900E0A446 /* snow2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow2.jpeg; sourceTree = "<group>"; };
+		75815BD11A24E99900E0A446 /* snow3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow3.jpeg; sourceTree = "<group>"; };
+		75815BD21A24E99900E0A446 /* snow4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow4.jpeg; sourceTree = "<group>"; };
+		75815BD31A24E99900E0A446 /* snow5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow5.jpeg; sourceTree = "<group>"; };
+		75815BD41A24E99900E0A446 /* snow6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow6.jpeg; sourceTree = "<group>"; };
+		75815BDB1A254D3A00E0A446 /* snekkja2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snekkja2.jpeg; sourceTree = "<group>"; };
+		75815BDC1A254D3A00E0A446 /* snekkja3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snekkja3.jpeg; sourceTree = "<group>"; };
+		75815BDD1A254D3A00E0A446 /* snekkja4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snekkja4.jpeg; sourceTree = "<group>"; };
+		75815BDE1A254D3A00E0A446 /* snekkja5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snekkja5.jpeg; sourceTree = "<group>"; };
+		75815BDF1A254D3A00E0A446 /* snjekkja1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snjekkja1.jpeg; sourceTree = "<group>"; };
+		C47223A03F086F2BCFF33CFF /* Pods-blick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blick.release.xcconfig"; path = "Pods/Target Support Files/Pods-blick/Pods-blick.release.xcconfig"; sourceTree = "<group>"; };
+		CE5CC9A3E579D431141AF5E4 /* Pods-blick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blick/Pods-blick.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +97,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BC024DB4945FE8F6B741A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE5CC9A3E579D431141AF5E4 /* Pods-blick.debug.xcconfig */,
+				C47223A03F086F2BCFF33CFF /* Pods-blick.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A983A022191081BD1381838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F721CA60FC98858EE5FE5 /* libPods-blick.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		753862081A24A8A700656A84 = {
 			isa = PBXGroup;
 			children = (
 				753862131A24A8A700656A84 /* blick */,
 				7538622D1A24A8A700656A84 /* blickTests */,
 				753862121A24A8A700656A84 /* Products */,
+				49BC024DB4945FE8F6B741A7 /* Pods */,
+				6A983A022191081BD1381838 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +145,14 @@
 				753862211A24A8A700656A84 /* Images.xcassets */,
 				753862231A24A8A700656A84 /* LaunchScreen.xib */,
 				753862141A24A8A700656A84 /* Supporting Files */,
+				7538623A1A24AC9100656A84 /* AlbumViewController.h */,
+				7538623B1A24AC9100656A84 /* AlbumViewController.m */,
+				751047DB1A26326700C2CC71 /* cardView.h */,
+				751047DC1A26326700C2CC71 /* cardView.m */,
+				751047DE1A2633A700C2CC71 /* infoRow.h */,
+				751047DF1A2633A700C2CC71 /* infoRow.m */,
+				75815BCC1A24DCEF00E0A446 /* CustomViewCell.h */,
+				75815BCD1A24DCEF00E0A446 /* CustomViewCell.m */,
 			);
 			path = blick;
 			sourceTree = "<group>";
@@ -96,6 +160,17 @@
 		753862141A24A8A700656A84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75815BDB1A254D3A00E0A446 /* snekkja2.jpeg */,
+				75815BDC1A254D3A00E0A446 /* snekkja3.jpeg */,
+				75815BDD1A254D3A00E0A446 /* snekkja4.jpeg */,
+				75815BDE1A254D3A00E0A446 /* snekkja5.jpeg */,
+				75815BDF1A254D3A00E0A446 /* snjekkja1.jpeg */,
+				75815BCF1A24E99900E0A446 /* snow1.jpeg */,
+				75815BD01A24E99900E0A446 /* snow2.jpeg */,
+				75815BD11A24E99900E0A446 /* snow3.jpeg */,
+				75815BD21A24E99900E0A446 /* snow4.jpeg */,
+				75815BD31A24E99900E0A446 /* snow5.jpeg */,
+				75815BD41A24E99900E0A446 /* snow6.jpeg */,
 				753862151A24A8A700656A84 /* Info.plist */,
 				753862161A24A8A700656A84 /* main.m */,
 			);
@@ -126,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 753862341A24A8A700656A84 /* Build configuration list for PBXNativeTarget "blick" */;
 			buildPhases = (
+				E3EF04B8CD124FF2B0FE25CD /* Check Pods Manifest.lock */,
 				7538620D1A24A8A700656A84 /* Sources */,
 				7538620E1A24A8A700656A84 /* Frameworks */,
 				7538620F1A24A8A700656A84 /* Resources */,
+				9089B559DAE931EDC92FEA8F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +276,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75815BD71A24E99900E0A446 /* snow3.jpeg in Resources */,
+				75815BD81A24E99900E0A446 /* snow4.jpeg in Resources */,
+				75815BD91A24E99900E0A446 /* snow5.jpeg in Resources */,
 				753862201A24A8A700656A84 /* Main.storyboard in Resources */,
+				75815BE21A254D3A00E0A446 /* snekkja4.jpeg in Resources */,
+				75815BE01A254D3A00E0A446 /* snekkja2.jpeg in Resources */,
+				75815BE31A254D3A00E0A446 /* snekkja5.jpeg in Resources */,
+				75815BD61A24E99900E0A446 /* snow2.jpeg in Resources */,
 				753862251A24A8A700656A84 /* LaunchScreen.xib in Resources */,
+				75815BE11A254D3A00E0A446 /* snekkja3.jpeg in Resources */,
+				75815BDA1A24E99900E0A446 /* snow6.jpeg in Resources */,
+				75815BD51A24E99900E0A446 /* snow1.jpeg in Resources */,
+				75815BE41A254D3A00E0A446 /* snjekkja1.jpeg in Resources */,
 				753862221A24A8A700656A84 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +302,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9089B559DAE931EDC92FEA8F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blick/Pods-blick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3EF04B8CD124FF2B0FE25CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7538620D1A24A8A700656A84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75815BCE1A24DCEF00E0A446 /* CustomViewCell.m in Sources */,
+				7538623C1A24AC9100656A84 /* AlbumViewController.m in Sources */,
+				751047DD1A26326700C2CC71 /* cardView.m in Sources */,
 				7538621D1A24A8A700656A84 /* ViewController.m in Sources */,
 				7538621A1A24A8A700656A84 /* AppDelegate.m in Sources */,
+				751047E01A2633A700C2CC71 /* infoRow.m in Sources */,
 				753862171A24A8A700656A84 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +466,7 @@
 		};
 		753862351A24A8A700656A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5CC9A3E579D431141AF5E4 /* Pods-blick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = blick/Info.plist;
@@ -351,6 +477,7 @@
 		};
 		753862361A24A8A700656A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47223A03F086F2BCFF33CFF /* Pods-blick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = blick/Info.plist;
@@ -412,6 +539,7 @@
 				753862361A24A8A700656A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		753862371A24A8A700656A84 /* Build configuration list for PBXNativeTarget "blickTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +548,7 @@
 				753862391A24A8A700656A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
