@@ -6,6 +6,12 @@
 // project.
 
 
+// XHImageViewer
+#define COCOAPODS_POD_AVAILABLE_XHImageViewer
+#define COCOAPODS_VERSION_MAJOR_XHImageViewer 0
+#define COCOAPODS_VERSION_MINOR_XHImageViewer 1
+#define COCOAPODS_VERSION_PATCH_XHImageViewer 2
+
 // XLMediaZoom
 #define COCOAPODS_POD_AVAILABLE_XLMediaZoom
 #define COCOAPODS_VERSION_MAJOR_XLMediaZoom 2

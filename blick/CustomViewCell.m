@@ -15,10 +15,6 @@
 - (UIImageView *)imageView
 {
     if (_image) return _image;
-    
-    [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self.superview action:@selector(imageDidTouch:)]];
-    [self setUserInteractionEnabled:YES];
-    
     return _image;
 }
 
@@ -37,8 +33,10 @@
 
 - (void)imageDidTouch:(UIGestureRecognizer *)recognizer
 {
+    NSLog(@"ding dong");
     [self.superview.superview addSubview:self.imageZoomView];
     [self.imageZoomView show];
+    
 }
 
 @end

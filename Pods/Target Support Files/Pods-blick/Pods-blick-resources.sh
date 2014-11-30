@@ -43,7 +43,12 @@ install_resource()
       ;;
   esac
 }
-
+          install_resource "XHImageViewer/Source/Resources/1_1280x800-1.jpeg"
+                    install_resource "XHImageViewer/Source/Resources/1_1280x800.jpeg"
+                    install_resource "XHImageViewer/Source/Resources/4_1366x768.jpeg"
+                    install_resource "XHImageViewer/Source/Resources/5_1280x800.jpeg"
+                    install_resource "XHImageViewer/Source/Resources/placeholder.jpeg"
+          
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then
   rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${INSTALL_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

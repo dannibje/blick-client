@@ -8,24 +8,11 @@
 
 #import "AlbumViewController.h"
 #import "CustomViewCell.h"
+#import "XHImageViewer.h"
+#import "imageArray.h"
+#import "infoRow.h"
 
-@interface InfoRow2 : NSObject
-@property(nonatomic, readwrite) NSString *image;
-@property(nonatomic, readwrite) NSString *description;
-@end
-
-@implementation InfoRow2
-@synthesize image;
-@synthesize description;
-
--(id)init
-{
-    self = [super init];
-    return self;
-}
-@end
-
-@interface AlbumViewController ()
+@interface AlbumViewController ()<XHImageViewerDelegate>
 
 @end
 
@@ -33,31 +20,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    images = [[NSMutableArray alloc] initWithObjects:@"snow1.jpeg",@"snow2.jpeg",@"snow3.jpeg",@"snow4.jpeg",@"snow5.jpeg",@"snow6.jpeg", nil];
-    imageLabels = [[NSMutableArray alloc] initWithObjects:@"mynd1",@"mynd2",@"mynd3",@"mynd4",@"mynd5",@"mynd6", nil];
     
-    yachtImages = [[NSMutableArray alloc] initWithObjects:@"snekkja1.jpeg",@"snekkja2.jpeg",@"snekkja3.jpeg",@"snekkja4.jpeg",@"snekkja5.jpeg", nil];
-    yachtImageLabels = [[NSMutableArray alloc] initWithObjects:@"snekkja1",@"snekkja2",@"snekkja3",@"snekkja5",@"snekkja5",@"snekkja6", nil];
+//    self.flowLayout = [[UICollectionViewFlowLayout alloc] init];
+//    [self.collectionView setCollectionViewLayout:self.flowLayout];
     
-    self.snowImageCells = [NSMutableArray array];
-    self.yachtImageCells = [NSMutableArray array];
-    self.dataRows = [NSMutableArray array];
+    RFQuiltLayout* layout = (id)[self.collectionView collectionViewLayout];
+    layout.direction = UICollectionViewScrollDirectionVertical;
+    layout.blockPixels = CGSizeMake(100,100);
     
-    for (int i = 0; i<[images count]; i++) {
-        InfoRow2 *cell = [[InfoRow2 alloc]init];
-        cell.image = [images objectAtIndex:i];
-        cell.description = [imageLabels objectAtIndex:i];
-        [self.snowImageCells addObject:cell];
-    }
+    sizeArray = [[NSMutableArray alloc] init];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"big"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"big"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"big"];
     
-    for (int j = 0; j<[yachtImages count]; j++) {
-        InfoRow2 *cell = [[InfoRow2 alloc]init];
-        cell.image = [yachtImages objectAtIndex:j];
-        cell.description = [yachtImageLabels objectAtIndex:j];
-        [self.yachtImageCells addObject:cell];
-    }
+    sharedManager = [imageArray sharedManager];
     
-    self.dataRows = self.snowImageCells;
+    self.dataRows = sharedManager.likedArray;
+    [self.collectionView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -65,19 +59,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 - (IBAction)segmentChanged:(id)sender {
     switch (self.segmentedControl.selectedSegmentIndex)
     {
         case 0:
             NSLog(@"first segment selected");
-            self.dataRows = self.snowImageCells;
+            self.dataRows = sharedManager.likedArray;
             [self.collectionView reloadSections:[NSIndexSet indexSetWithIndex:0]];
             break;
         case 1:
             NSLog(@"second segment selected");
-            self.dataRows = self.yachtImageCells;
+            self.dataRows = sharedManager.myArray;
             [self.collectionView reloadSections:[NSIndexSet indexSetWithIndex:0]];
             break;
         default:
@@ -97,13 +89,18 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CustomViewCell *myCell = (CustomViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"customCell" forIndexPath:indexPath];
+    CustomViewCell *myCell;
+    int controller = 1;
     
-    InfoRow2 *cell = [self.dataRows objectAtIndex:indexPath.row];
+    if([[sizeArray objectAtIndex:indexPath.item]  isEqual: @"big"]){
+        myCell = (CustomViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"customCellBig" forIndexPath:indexPath];
+    }else{
+        myCell = (CustomViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"customCell" forIndexPath:indexPath];
+    }
+    controller++;
     
-    myCell.image.image = [UIImage imageNamed:cell.image];
-    myCell.label.text = cell.description;
-    
+    InfoRow *cell = [self.dataRows objectAtIndex:indexPath.row];
+    myCell.image.image = [UIImage imageWithData:cell.imageData];;
     
     //error
     [myCell addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:myCell action:@selector(imageDidTouch:)]];
@@ -112,16 +109,52 @@
     return myCell;
 }
 
-//- (BOOL)collectionView:(UICollectionView *)collectionView
-//shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath{
-//    return YES;
-//}
-//
-//
-//-(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
-//{
+-(CGSize) collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout blockSizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    if(indexPath.row >= sharedManager.likedArray.count) {
+        NSLog(@"Asking for index paths of non-existant cells!! %ld from %lu cells", (long)indexPath.row, (unsigned long)sharedManager.likedArray.count);
+    }
+    
+    CGFloat width;
+    CGFloat height;
+
+    if([[sizeArray objectAtIndex:indexPath.item]  isEqual: @"big"]){
+        width = 2;
+        height = 2;
+    }else{
+        width = 1;
+        height = 1;
+    }
+
+    return CGSizeMake(width, height);
+    
+    //    if (indexPath.row % 10 == 0)
+    //        return CGSizeMake(3, 1);
+    //    if (indexPath.row % 11 == 0)
+    //        return CGSizeMake(2, 1);
+    //    else if (indexPath.row % 7 == 0)
+    //        return CGSizeMake(1, 3);
+    //    else if (indexPath.row % 8 == 0)
+    //        return CGSizeMake(1, 2);
+    //    else if(indexPath.row % 11 == 0)
+    //        return CGSizeMake(2, 2);
+    //    if (indexPath.row == 0) return CGSizeMake(5, 5);
+    //
+    //    return CGSizeMake(1, 1);
+}
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetsForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return UIEdgeInsetsMake(2, 2, 2, 2);
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+{
 //    NSLog(@"clicked:%@",indexPath);
-//}
+//    
+//    XHImageViewer *imageViewer = [[XHImageViewer alloc] init];
+//    imageViewer.delegate = self;
+//    [imageViewer showWithImageViews:_animationArray selectedView:_animationArray[indexPath.item]];
+    
+}
 
 
 /*

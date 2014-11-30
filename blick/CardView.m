@@ -40,7 +40,7 @@
     
   //  NSLog(@"size of card is: %f %f", contentView.frame.size.width, contentView.frame.size.height);
     
-    UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(5, 5, self.frame.size.width-10, self.frame.size.height - 110)];
+    UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
     
     //[contentView addSubview:image];
     [self addSubview:image];

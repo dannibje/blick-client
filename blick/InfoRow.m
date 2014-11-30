@@ -12,6 +12,7 @@
 @synthesize url;
 @synthesize name;
 @synthesize imageData;
+@synthesize userImage;
 
 -(id)init
 {

@@ -7,18 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "imageArray.h"
+#import "RFQuiltLayout.h"
 
-@interface AlbumViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface AlbumViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, RFQuiltLayoutDelegate>
 {
     NSMutableArray *images, *imageLabels;
     NSMutableArray *yachtImages, *yachtImageLabels;
+    imageArray *sharedManager;
+    NSMutableArray *sizeArray;
 }
+
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 
 @property (strong, nonatomic) NSMutableArray *dataRows;
-@property (strong, nonatomic) NSMutableArray *snowImageCells;
-@property (strong, nonatomic) NSMutableArray *yachtImageCells;
+
+@property NSArray *animationArray;
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+//@property (nonatomic, strong) IBOutlet UICollectionViewFlowLayout *flowLayout;
 
 @end

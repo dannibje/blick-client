@@ -7,13 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "imageArray.h"
 
 @interface ViewController : UIViewController
+{
+    imageArray *sharedManager;
+}
 
+//UI declerations
 @property (weak, nonatomic) IBOutlet UINavigationItem *albumButton;
-
-@property (strong,nonatomic) NSMutableArray * data;
 @property (strong, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UIButton *likeButton;
+@property (weak, nonatomic) IBOutlet UIButton *declineButton;
+@property (weak, nonatomic) IBOutlet UIImageView *userImage;
+@property (weak, nonatomic) IBOutlet UILabel *userName;
+
+-(void)updateImageUserData: (NSInteger)index;
+
 
 @end
 

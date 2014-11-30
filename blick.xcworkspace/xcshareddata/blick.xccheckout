@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F2470A4-4DBD-4543-B9E6-F4D6C0789A40</string>
+	<key>IDESourceControlProjectName</key>
+	<string>blick</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D52EB06831D67833503CA9CBF24DEC45327DBFFC</key>
+		<string>https://github.com/dannibje/blick-client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>blick.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D52EB06831D67833503CA9CBF24DEC45327DBFFC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dannibje/blick-client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D52EB06831D67833503CA9CBF24DEC45327DBFFC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D52EB06831D67833503CA9CBF24DEC45327DBFFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>blick</string>
+		</dict>
+	</array>
+</dict>
+</plist>

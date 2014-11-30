@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/XLMediaZoom" "${PODS_ROOT}/Headers/Public/ZLSwipeableView"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/XLMediaZoom" -isystem "${PODS_ROOT}/Headers/Public/ZLSwipeableView"
-OTHER_LDFLAGS = -ObjC -l"Pods-blick-XLMediaZoom" -l"Pods-blick-ZLSwipeableView" -framework "AVFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/XHImageViewer" "${PODS_ROOT}/Headers/Public/XLMediaZoom" "${PODS_ROOT}/Headers/Public/ZLSwipeableView"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/XHImageViewer" -isystem "${PODS_ROOT}/Headers/Public/XLMediaZoom" -isystem "${PODS_ROOT}/Headers/Public/ZLSwipeableView"
+OTHER_LDFLAGS = -ObjC -l"Pods-blick-XHImageViewer" -l"Pods-blick-XLMediaZoom" -l"Pods-blick-ZLSwipeableView" -framework "AVFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods
