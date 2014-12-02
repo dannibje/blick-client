@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" canCancelContentTouches="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-LN-Kbe">
-                                <rect key="frame" x="0.0" y="120" width="320" height="448"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" canCancelContentTouches="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-LN-Kbe">
+                                <rect key="frame" x="0.0" y="70" width="320" height="448"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewLayout key="collectionViewLayout" id="x4E-VG-8VB" customClass="RFQuiltLayout">
                                     <connections>
@@ -25,31 +25,6 @@
                                     </connections>
                                 </collectionViewLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customCellBig" id="YxC-32-YfG" customClass="CustomViewCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ldn-2d-GYO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
-                                                    <color key="backgroundColor" red="0.97647064920000004" green="0.68235296010000002" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstItem="ldn-2d-GYO" firstAttribute="top" secondItem="YxC-32-YfG" secondAttribute="top" id="TAw-Iw-Pxj"/>
-                                            <constraint firstAttribute="trailing" secondItem="ldn-2d-GYO" secondAttribute="trailing" id="YnN-s2-MGH"/>
-                                            <constraint firstItem="ldn-2d-GYO" firstAttribute="leading" secondItem="YxC-32-YfG" secondAttribute="leading" id="fhi-RC-UDf"/>
-                                            <constraint firstAttribute="bottom" secondItem="ldn-2d-GYO" secondAttribute="bottom" id="jpT-Gv-Jw1"/>
-                                        </constraints>
-                                        <size key="customSize" width="200" height="200"/>
-                                        <connections>
-                                            <outlet property="image" destination="ldn-2d-GYO" id="Uot-Bm-3aL"/>
-                                        </connections>
-                                    </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" reuseIdentifier="customCell" id="AUj-VT-3C2" customClass="CustomViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -75,12 +50,44 @@
                                             <outlet property="image" destination="NKW-Vk-CS1" id="zhg-Gt-qq2"/>
                                         </connections>
                                     </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customCellBig" id="YxC-32-YfG" customClass="CustomViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ldn-2d-GYO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                                    <color key="backgroundColor" red="0.97647064920000004" green="0.68235296010000002" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="ldn-2d-GYO" firstAttribute="top" secondItem="YxC-32-YfG" secondAttribute="top" id="TAw-Iw-Pxj"/>
+                                            <constraint firstAttribute="trailing" secondItem="ldn-2d-GYO" secondAttribute="trailing" id="YnN-s2-MGH"/>
+                                            <constraint firstItem="ldn-2d-GYO" firstAttribute="leading" secondItem="YxC-32-YfG" secondAttribute="leading" id="fhi-RC-UDf"/>
+                                            <constraint firstAttribute="bottom" secondItem="ldn-2d-GYO" secondAttribute="bottom" id="jpT-Gv-Jw1"/>
+                                        </constraints>
+                                        <size key="customSize" width="200" height="200"/>
+                                        <connections>
+                                            <outlet property="image" destination="ldn-2d-GYO" id="Uot-Bm-3aL"/>
+                                        </connections>
+                                    </collectionViewCell>
                                 </cells>
                                 <connections>
                                     <outlet property="dataSource" destination="Iya-P9-nbb" id="Crq-ui-lVT"/>
                                     <outlet property="delegate" destination="Iya-P9-nbb" id="uKe-wd-PrW"/>
                                 </connections>
                             </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gkq-mx-0Ye">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="9pT-bd-G5r"/>
+                                </constraints>
+                            </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cdL-Mb-RWo">
                                 <rect key="frame" x="20" y="84" width="280" height="29"/>
                                 <segments>
@@ -95,12 +102,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="cdL-Mb-RWo" secondAttribute="trailing" constant="20" id="03x-IX-QHu"/>
-                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" constant="120" id="4Li-9d-svr"/>
+                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" constant="70" id="4Li-9d-svr"/>
                             <constraint firstAttribute="bottom" secondItem="Q4N-LN-Kbe" secondAttribute="bottom" id="FIG-7v-oRB"/>
-                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="cdL-Mb-RWo" secondAttribute="bottom" constant="8" id="Nzs-51-Jdk"/>
                             <constraint firstItem="Q4N-LN-Kbe" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" id="br7-fh-hj5"/>
                             <constraint firstAttribute="trailing" secondItem="Q4N-LN-Kbe" secondAttribute="trailing" id="f6K-4J-b73"/>
+                            <constraint firstItem="Gkq-mx-0Ye" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" id="h2P-Zb-bBm"/>
+                            <constraint firstItem="cdL-Mb-RWo" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" constant="84" id="ink-Kp-RWS"/>
                             <constraint firstItem="cdL-Mb-RWo" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" constant="20" id="nZS-Nz-gOH"/>
+                            <constraint firstAttribute="trailing" secondItem="Gkq-mx-0Ye" secondAttribute="trailing" id="zE5-XK-S5Q"/>
+                            <constraint firstItem="Gkq-mx-0Ye" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" id="zec-8p-cjC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Album" id="t0o-qB-OiV"/>
@@ -113,7 +123,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kWJ-IH-lX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="xwe-2A-HcH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1167" y="49"/>
+            <point key="canvasLocation" x="1180" y="30"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QsI-8b-fCA">
