@@ -33,10 +33,8 @@
 
 - (void)imageDidTouch:(UIGestureRecognizer *)recognizer
 {
-    NSLog(@"ding dong");
     [self.superview.superview addSubview:self.imageZoomView];
     [self.imageZoomView show];
-    
 }
 
 @end

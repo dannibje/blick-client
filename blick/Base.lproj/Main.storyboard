@@ -15,11 +15,11 @@
                         <viewControllerLayoutGuide type="bottom" id="8JE-Xg-e2M"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FGm-sL-TyZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" delaysContentTouches="NO" canCancelContentTouches="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-LN-Kbe">
-                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                                <rect key="frame" x="0.0" y="120" width="320" height="448"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Q4N-LN-Kbe" secondAttribute="height" multiplier="375:667" id="3YW-CS-at9"/>
@@ -91,28 +91,27 @@
                                     <outlet property="delegate" destination="Iya-P9-nbb" id="uKe-wd-PrW"/>
                                 </connections>
                             </collectionView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hzS-L0-OGO">
-                                <rect key="frame" x="38" y="79" width="298" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cdL-Mb-RWo">
+                                <rect key="frame" x="20" y="84" width="280" height="29"/>
                                 <segments>
                                     <segment title="Liked"/>
-                                    <segment title="My Images"/>
+                                    <segment title="MyImages"/>
                                 </segments>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
-                                    <action selector="segmentChanged:" destination="Iya-P9-nbb" eventType="valueChanged" id="kHH-c0-a7n"/>
+                                    <action selector="segmentChanged:" destination="Iya-P9-nbb" eventType="valueChanged" id="uah-WM-wIW"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" constant="60" id="4Li-9d-svr"/>
+                            <constraint firstAttribute="trailing" secondItem="cdL-Mb-RWo" secondAttribute="trailing" constant="20" id="03x-IX-QHu"/>
+                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" constant="120" id="4Li-9d-svr"/>
                             <constraint firstAttribute="bottom" secondItem="Q4N-LN-Kbe" secondAttribute="bottom" id="FIG-7v-oRB"/>
+                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="cdL-Mb-RWo" secondAttribute="bottom" constant="8" id="Nzs-51-Jdk"/>
                             <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="topMargin" constant="25" id="QNd-CG-1aJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hzS-L0-OGO" secondAttribute="trailing" constant="23" id="Tkv-Q2-vfU"/>
-                            <constraint firstItem="hzS-L0-OGO" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leadingMargin" constant="22" id="YUu-Nu-ygr"/>
                             <constraint firstItem="Q4N-LN-Kbe" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" id="br7-fh-hj5"/>
                             <constraint firstAttribute="trailing" secondItem="Q4N-LN-Kbe" secondAttribute="trailing" id="f6K-4J-b73"/>
-                            <constraint firstItem="hzS-L0-OGO" firstAttribute="top" secondItem="40q-9S-HxH" secondAttribute="bottom" constant="15" id="qWo-cX-RXH"/>
+                            <constraint firstItem="cdL-Mb-RWo" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" constant="20" id="nZS-Nz-gOH"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -121,15 +120,16 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Album" id="t0o-qB-OiV"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="collectionView" destination="Q4N-LN-Kbe" id="wLp-W7-t9v"/>
-                        <outlet property="segmentedControl" destination="hzS-L0-OGO" id="pcO-hd-zQ3"/>
+                        <segue destination="xwe-2A-HcH" kind="unwind" identifier="unwindFromViewController" unwindAction="unwindFromViewController:" id="5V5-t0-WdA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kWJ-IH-lX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xwe-2A-HcH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1634.5" y="283.5"/>
+            <point key="canvasLocation" x="1167" y="49"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QsI-8b-fCA">
@@ -140,15 +140,15 @@
                         <viewControllerLayoutGuide type="bottom" id="bu2-l5-dH2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hkb-af-3uk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3z2-M4-nyY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="373.5" y="296.5"/>
+            <point key="canvasLocation" x="137" y="49"/>
         </scene>
         <!--Menu-->
         <scene sceneID="ufC-wZ-h7g">
@@ -195,7 +195,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKV-Zy-eob" customClass="ZLSwipeableView">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKV-Zy-eob" customClass="ZLSwipeableView">
                                 <rect key="frame" x="20" y="134" width="280" height="280"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -235,7 +235,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Iya-P9-nbb" kind="show" identifier="album" id="QH9-YV-II4"/>
+                                    <segue destination="Iya-P9-nbb" kind="custom" identifier="album" customClass="CustomSegue" id="QH9-YV-II4"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -258,9 +258,9 @@
         <!--Navigation Controller-->
         <scene sceneID="pKe-ZQ-zOP">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WIS-T6-DGg" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WIS-T6-DGg" customClass="NavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="U0G-QW-aFx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -272,7 +272,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FF4-c0-U9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1027.5" y="-533.5"/>
+            <point key="canvasLocation" x="663" y="-686"/>
         </scene>
     </scenes>
     <resources>

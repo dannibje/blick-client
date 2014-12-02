@@ -21,6 +21,9 @@
 		753862311A24A8A700656A84 /* blickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753862301A24A8A700656A84 /* blickTests.m */; };
 		7538623C1A24AC9100656A84 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7538623B1A24AC9100656A84 /* AlbumViewController.m */; };
 		753A704F1A28CADC00037768 /* imageArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A704E1A28CADC00037768 /* imageArray.m */; };
+		753FE5411A2CB80C00584417 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753FE5401A2CB80C00584417 /* QuartzCore.framework */; };
+		756226A41A2DCF8500A71C27 /* CustomUnwindSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 756226A31A2DCF8500A71C27 /* CustomUnwindSegue.m */; };
+		756226A71A2E1C3000A71C27 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756226A61A2E1C3000A71C27 /* NavigationController.m */; };
 		75815BCE1A24DCEF00E0A446 /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75815BCD1A24DCEF00E0A446 /* CustomViewCell.m */; };
 		75815BD51A24E99900E0A446 /* snow1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BCF1A24E99900E0A446 /* snow1.jpeg */; };
 		75815BD61A24E99900E0A446 /* snow2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BD01A24E99900E0A446 /* snow2.jpeg */; };
@@ -33,6 +36,7 @@
 		75815BE21A254D3A00E0A446 /* snekkja4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDD1A254D3A00E0A446 /* snekkja4.jpeg */; };
 		75815BE31A254D3A00E0A446 /* snekkja5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDE1A254D3A00E0A446 /* snekkja5.jpeg */; };
 		75815BE41A254D3A00E0A446 /* snjekkja1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75815BDF1A254D3A00E0A446 /* snjekkja1.jpeg */; };
+		75B293201A2CBA8F00F021E6 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2931F1A2CBA8F00F021E6 /* CustomSegue.m */; };
 		94ED62C77BF4E0BDED59BA9F /* libPods-blick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7F721CA60FC98858EE5FE5 /* libPods-blick.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +77,11 @@
 		7538623B1A24AC9100656A84 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 		753A704D1A28CADC00037768 /* imageArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageArray.h; sourceTree = "<group>"; };
 		753A704E1A28CADC00037768 /* imageArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageArray.m; sourceTree = "<group>"; };
+		753FE5401A2CB80C00584417 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		756226A21A2DCF8500A71C27 /* CustomUnwindSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomUnwindSegue.h; path = "../../../Downloads/CustomSegue-master/CustomSegue/CustomUnwindSegue.h"; sourceTree = "<group>"; };
+		756226A31A2DCF8500A71C27 /* CustomUnwindSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomUnwindSegue.m; path = "../../../Downloads/CustomSegue-master/CustomSegue/CustomUnwindSegue.m"; sourceTree = "<group>"; };
+		756226A51A2E1C3000A71C27 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationController.h; path = "../../../Downloads/CustomUnwindSegue-DTS_Response/CustomUnwindSegue/NavigationController.h"; sourceTree = "<group>"; };
+		756226A61A2E1C3000A71C27 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationController.m; path = "../../../Downloads/CustomUnwindSegue-DTS_Response/CustomUnwindSegue/NavigationController.m"; sourceTree = "<group>"; };
 		75815BCC1A24DCEF00E0A446 /* CustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
 		75815BCD1A24DCEF00E0A446 /* CustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
 		75815BCF1A24E99900E0A446 /* snow1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow1.jpeg; sourceTree = "<group>"; };
@@ -86,6 +95,8 @@
 		75815BDD1A254D3A00E0A446 /* snekkja4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snekkja4.jpeg; sourceTree = "<group>"; };
 		75815BDE1A254D3A00E0A446 /* snekkja5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snekkja5.jpeg; sourceTree = "<group>"; };
 		75815BDF1A254D3A00E0A446 /* snjekkja1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snjekkja1.jpeg; sourceTree = "<group>"; };
+		75B2931E1A2CBA8F00F021E6 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		75B2931F1A2CBA8F00F021E6 /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
 		C47223A03F086F2BCFF33CFF /* Pods-blick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blick.release.xcconfig"; path = "Pods/Target Support Files/Pods-blick/Pods-blick.release.xcconfig"; sourceTree = "<group>"; };
 		CE5CC9A3E579D431141AF5E4 /* Pods-blick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blick/Pods-blick.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753FE5411A2CB80C00584417 /* QuartzCore.framework in Frameworks */,
 				94ED62C77BF4E0BDED59BA9F /* libPods-blick.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +133,7 @@
 		6A983A022191081BD1381838 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				753FE5401A2CB80C00584417 /* QuartzCore.framework */,
 				0C7F721CA60FC98858EE5FE5 /* libPods-blick.a */,
 			);
 			name = Frameworks;
@@ -158,6 +171,7 @@
 		753862131A24A8A700656A84 /* blick */ = {
 			isa = PBXGroup;
 			children = (
+				756226A11A2DCF1F00A71C27 /* CustomSegues */,
 				751A5B831A28F59A00C35E89 /* RFQuiltLayout */,
 				753862181A24A8A700656A84 /* AppDelegate.h */,
 				753862191A24A8A700656A84 /* AppDelegate.m */,
@@ -177,6 +191,8 @@
 				75815BCD1A24DCEF00E0A446 /* CustomViewCell.m */,
 				753A704D1A28CADC00037768 /* imageArray.h */,
 				753A704E1A28CADC00037768 /* imageArray.m */,
+				756226A51A2E1C3000A71C27 /* NavigationController.h */,
+				756226A61A2E1C3000A71C27 /* NavigationController.m */,
 			);
 			path = blick;
 			sourceTree = "<group>";
@@ -218,6 +234,17 @@
 				7538622F1A24A8A700656A84 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		756226A11A2DCF1F00A71C27 /* CustomSegues */ = {
+			isa = PBXGroup;
+			children = (
+				756226A21A2DCF8500A71C27 /* CustomUnwindSegue.h */,
+				756226A31A2DCF8500A71C27 /* CustomUnwindSegue.m */,
+				75B2931E1A2CBA8F00F021E6 /* CustomSegue.h */,
+				75B2931F1A2CBA8F00F021E6 /* CustomSegue.m */,
+			);
+			name = CustomSegues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,10 +399,13 @@
 				753A704F1A28CADC00037768 /* imageArray.m in Sources */,
 				7538623C1A24AC9100656A84 /* AlbumViewController.m in Sources */,
 				751047DD1A26326700C2CC71 /* cardView.m in Sources */,
+				756226A71A2E1C3000A71C27 /* NavigationController.m in Sources */,
 				7538621D1A24A8A700656A84 /* ViewController.m in Sources */,
 				7538621A1A24A8A700656A84 /* AppDelegate.m in Sources */,
+				75B293201A2CBA8F00F021E6 /* CustomSegue.m in Sources */,
 				751A5B891A28F5CD00C35E89 /* RFQuiltLayout.m in Sources */,
 				751047E01A2633A700C2CC71 /* infoRow.m in Sources */,
+				756226A41A2DCF8500A71C27 /* CustomUnwindSegue.m in Sources */,
 				753862171A24A8A700656A84 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

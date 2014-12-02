@@ -11,6 +11,7 @@
 #import "XHImageViewer.h"
 #import "imageArray.h"
 #import "infoRow.h"
+#import "CustomUnwindSegue.h"
 
 @interface AlbumViewController ()<XHImageViewerDelegate>
 
@@ -20,6 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.hidesBackButton = YES;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"menu" style:UIBarButtonItemStylePlain target:self action:@selector(unwindToMenu)];
     
 //    self.flowLayout = [[UICollectionViewFlowLayout alloc] init];
 //    [self.collectionView setCollectionViewLayout:self.flowLayout];
@@ -35,12 +39,12 @@
     [sizeArray addObject:@"small"];
     [sizeArray addObject:@"small"];
     [sizeArray addObject:@"small"];
-    [sizeArray addObject:@"small"];
-    [sizeArray addObject:@"small"];
-    [sizeArray addObject:@"small"];
-    [sizeArray addObject:@"small"];
-    [sizeArray addObject:@"small"];
     [sizeArray addObject:@"big"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"small"];
+    [sizeArray addObject:@"samll"];
     [sizeArray addObject:@"small"];
     [sizeArray addObject:@"small"];
     [sizeArray addObject:@"small"];
@@ -57,6 +61,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)unwindToMenu
+{
+    [self performSegueWithIdentifier:@"unwindFromViewController" sender:self];
 }
 
 - (IBAction)segmentChanged:(id)sender {

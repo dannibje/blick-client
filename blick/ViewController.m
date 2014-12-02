@@ -11,6 +11,7 @@
 #import "CardView.h"
 #import "infoRow.h"
 #import "imageArray.h"
+#import "CustomUnwindSegue.h"
 
 @interface ViewController ()<ZLSwipeableViewDataSource, ZLSwipeableViewDelegate>
 
@@ -27,6 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.hidesBackButton = YES;
     
     self.stackControllindex = 0;
     self.currentIndex = 0;
@@ -49,6 +51,11 @@
     // optional delegate
     self.swipeableView.delegate = self;
     
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 -(void)populateImageStack{
@@ -113,10 +120,9 @@
     self.userName.text = obj.name;
 }
 
+//===Custom Unwind Segue methods===
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)unwindFromViewController:(UIStoryboardSegue *)sender {
 }
 
 - (IBAction)swipeLeftButtonAction:(UIButton *)sender {
