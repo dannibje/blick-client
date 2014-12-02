@@ -2,8 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WIS-T6-DGg">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Album-->
@@ -18,43 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" delaysContentTouches="NO" canCancelContentTouches="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-LN-Kbe">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" canCancelContentTouches="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Q4N-LN-Kbe">
                                 <rect key="frame" x="0.0" y="120" width="320" height="448"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Q4N-LN-Kbe" secondAttribute="height" multiplier="375:667" id="3YW-CS-at9"/>
-                                </constraints>
                                 <collectionViewLayout key="collectionViewLayout" id="x4E-VG-8VB" customClass="RFQuiltLayout">
                                     <connections>
                                         <outlet property="delegate" destination="Iya-P9-nbb" id="3V2-CL-T8f"/>
                                     </connections>
                                 </collectionViewLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customCell" id="AUj-VT-3C2" customClass="CustomViewCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NKW-Vk-CS1">
-                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                                    <color key="backgroundColor" red="0.97647064920000004" green="0.68235296010000002" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="NKW-Vk-CS1" secondAttribute="trailing" id="3p6-I7-7Sd"/>
-                                            <constraint firstItem="NKW-Vk-CS1" firstAttribute="top" secondItem="AUj-VT-3C2" secondAttribute="top" id="E9L-j5-wnO"/>
-                                            <constraint firstItem="NKW-Vk-CS1" firstAttribute="leading" secondItem="AUj-VT-3C2" secondAttribute="leading" id="X9R-kp-u17"/>
-                                            <constraint firstAttribute="bottom" secondItem="NKW-Vk-CS1" secondAttribute="bottom" id="yHw-yz-m9H"/>
-                                        </constraints>
-                                        <size key="customSize" width="100" height="100"/>
-                                        <connections>
-                                            <outlet property="image" destination="NKW-Vk-CS1" id="zhg-Gt-qq2"/>
-                                        </connections>
-                                    </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customCellBig" id="YxC-32-YfG" customClass="CustomViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -80,12 +50,32 @@
                                             <outlet property="image" destination="ldn-2d-GYO" id="Uot-Bm-3aL"/>
                                         </connections>
                                     </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" reuseIdentifier="customCell" id="AUj-VT-3C2" customClass="CustomViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NKW-Vk-CS1">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    <color key="backgroundColor" red="0.97647064920000004" green="0.68235296010000002" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="NKW-Vk-CS1" secondAttribute="trailing" id="3p6-I7-7Sd"/>
+                                            <constraint firstItem="NKW-Vk-CS1" firstAttribute="top" secondItem="AUj-VT-3C2" secondAttribute="top" id="E9L-j5-wnO"/>
+                                            <constraint firstItem="NKW-Vk-CS1" firstAttribute="leading" secondItem="AUj-VT-3C2" secondAttribute="leading" id="X9R-kp-u17"/>
+                                            <constraint firstAttribute="bottom" secondItem="NKW-Vk-CS1" secondAttribute="bottom" id="yHw-yz-m9H"/>
+                                        </constraints>
+                                        <size key="customSize" width="100" height="100"/>
+                                        <connections>
+                                            <outlet property="image" destination="NKW-Vk-CS1" id="zhg-Gt-qq2"/>
+                                        </connections>
+                                    </collectionViewCell>
                                 </cells>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="3YW-CS-at9"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="Iya-P9-nbb" id="Crq-ui-lVT"/>
                                     <outlet property="delegate" destination="Iya-P9-nbb" id="uKe-wd-PrW"/>
@@ -108,16 +98,10 @@
                             <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="top" constant="120" id="4Li-9d-svr"/>
                             <constraint firstAttribute="bottom" secondItem="Q4N-LN-Kbe" secondAttribute="bottom" id="FIG-7v-oRB"/>
                             <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="cdL-Mb-RWo" secondAttribute="bottom" constant="8" id="Nzs-51-Jdk"/>
-                            <constraint firstItem="Q4N-LN-Kbe" firstAttribute="top" secondItem="FGm-sL-TyZ" secondAttribute="topMargin" constant="25" id="QNd-CG-1aJ"/>
                             <constraint firstItem="Q4N-LN-Kbe" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" id="br7-fh-hj5"/>
                             <constraint firstAttribute="trailing" secondItem="Q4N-LN-Kbe" secondAttribute="trailing" id="f6K-4J-b73"/>
                             <constraint firstItem="cdL-Mb-RWo" firstAttribute="leading" secondItem="FGm-sL-TyZ" secondAttribute="leading" constant="20" id="nZS-Nz-gOH"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="QNd-CG-1aJ"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Album" id="t0o-qB-OiV"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -195,7 +179,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKV-Zy-eob" customClass="ZLSwipeableView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKV-Zy-eob" customClass="ZLSwipeableView">
                                 <rect key="frame" x="20" y="134" width="280" height="280"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
