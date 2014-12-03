@@ -11,6 +11,6 @@
 @interface InfoRow : NSObject
 @property(nonatomic, readwrite) NSString *url;
 @property(nonatomic, readwrite) NSString *name;
-@property(nonatomic, readwrite) NSData *imageData;
+@property(nonatomic, readwrite) NSString *imageData;
 @property(nonatomic, readwrite) NSData *userImage;
 @end

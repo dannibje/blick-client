@@ -6,6 +6,12 @@
 // project.
 
 
+// AsyncImageView
+#define COCOAPODS_POD_AVAILABLE_AsyncImageView
+#define COCOAPODS_VERSION_MAJOR_AsyncImageView 1
+#define COCOAPODS_VERSION_MINOR_AsyncImageView 5
+#define COCOAPODS_VERSION_PATCH_AsyncImageView 1
+
 // XHImageViewer
 #define COCOAPODS_POD_AVAILABLE_XHImageViewer
 #define COCOAPODS_VERSION_MAJOR_XHImageViewer 0

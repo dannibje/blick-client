@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-blick-AsyncImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-blick-XHImageViewer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>012B1C30298D1D438A67E225</key>
+		<key>263CBE3AB74D2B349776D8CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D72E1C605FECAEE4FEDA3ED</key>
+		<key>3C1495F25C04EE7E99718FCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6F2968D879FD6CB9C7F6A8E</key>
+		<key>7B710454AFBBA3956BF7634E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C84BA188555FDB8D473BD9B4</key>
+		<key>7D10D06BB8583BBCE7930788</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F242E442AB8750424C001659</key>
 		<dict>
 			<key>primary</key>
 			<true/>

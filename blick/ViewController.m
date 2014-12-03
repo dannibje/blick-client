@@ -71,7 +71,7 @@
         
         obj.url = @"http://lygsbtd.files.wordpress.com/2011/08/beer_toast.jpg";
         obj.name = @"Daníel Björn Sigurbjörnsson";
-        obj.imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://lygsbtd.files.wordpress.com/2011/08/beer_toast.jpg"]];
+        obj.imageData = @"http://lygsbtd.files.wordpress.com/2011/08/beer_toast.jpg";
         obj.userImage= [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://vsmallfires.files.wordpress.com/2013/05/kappa.jpg"]];
         
         [sharedManager.imageStackArray addObject:obj];
@@ -80,7 +80,7 @@
         
         obj1.url = @"http://lygsbtd.files.wordpress.com/2011/08/beer_toast.jpg";
         obj1.name = @"Dan Bilz";
-        obj1.imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://cdn.cnwimg.com/wp-content/uploads/2013/12/hotel-room.jpg"]];
+        obj1.imageData = @"http://cdn.cnwimg.com/wp-content/uploads/2013/12/hotel-room.jpg";
         obj1.userImage= [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://emptylighthouse.com/sites/default/files/rW-d_6Y1_2.jpeg"]];
         
         [sharedManager.imageStackArray addObject:obj1];
@@ -96,19 +96,15 @@
     
     for (int i = 0; i<[images count]; i++) {
         InfoRow *cell = [[InfoRow alloc]init];
-        cell.imageData =  [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: [images objectAtIndex:i]]];
-        
+        cell.imageData =  [images objectAtIndex:i];
         [sharedManager.likedArray addObject:cell];
     }
     
     for (int j = 0; j<[yachtImages count]; j++) {
         InfoRow *cell = [[InfoRow alloc]init];
-        cell.imageData =  [[NSData alloc]initWithContentsOfFile:[images objectAtIndex:j]];
+        cell.imageData =  [images objectAtIndex:j];
         [sharedManager.myArray addObject:cell];
     }
-    
-    
-    NSLog(@"SUCKAAAAAAA %lu",(unsigned long)sharedManager.likedArray.count);
 }
 
 -(void)updateImageUserData: (NSInteger)index

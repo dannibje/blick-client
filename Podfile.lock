@@ -1,14 +1,17 @@
 PODS:
+  - AsyncImageView (1.5.1)
   - XHImageViewer (0.1.2)
   - XLMediaZoom (2.0.1)
   - ZLSwipeableView (0.0.5)
 
 DEPENDENCIES:
+  - AsyncImageView
   - XHImageViewer
   - XLMediaZoom
   - ZLSwipeableView
 
 SPEC CHECKSUMS:
+  AsyncImageView: 388442ae8314a5c99de0d98040c2926826d31da7
   XHImageViewer: 84bcadb6d07a0040d2c7ac2e6ceb05df970da165
   XLMediaZoom: 3b32c799e81a0026ef4a9b4bf92f5a8bc7a4838e
   ZLSwipeableView: d54858e02bbad02e5fb7b3489478d7f92c0628ce

@@ -40,12 +40,25 @@
     
   //  NSLog(@"size of card is: %f %f", contentView.frame.size.width, contentView.frame.size.height);
     
-    UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
     
     //[contentView addSubview:image];
-    [self addSubview:image];
+    [self addSubview:imageView];
+    imageView.image = nil;
     
-    image.image = [UIImage imageWithData:_cardData.imageData];
+    #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+    dispatch_async(kBgQueue, ^{
+        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:_cardData.imageData]];
+        if (imgData) {
+            UIImage *image = [UIImage imageWithData:imgData];
+            if (image) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    imageView.image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_cardData.imageData]]];
+                });
+            }
+        }
+    });
+    //image.image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_cardData.imageData]]];
     
 }
 @end

@@ -10,15 +10,411 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>012B1C30298D1D438A67E225</key>
+		<key>0341F749986A21A232346D65</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ZLSwipeableView.h</string>
+			<key>path</key>
+			<string>ZLSwipeableView/ZLSwipeableView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>038F07F1BC8DD40988C287E1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C0787492E34F1E5C708D865</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0454E6DA1908D2A80E69D312</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FDDB244C20BC6EAA4F20CB4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>04600165BDB6851D73559F56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XHImageViewer.m</string>
+			<key>path</key>
+			<string>Source/XHImageViewer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>04F4F5EB80B455BED4E909E8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>11D5A3489688A72FD6485C6B</string>
+				<string>84BF7D3896D2309799185B87</string>
+				<string>6CE5A26AB72315EA487A3C9C</string>
+				<string>FA28E345A62F4D4B238470D2</string>
+				<string>673F92F67E1F502D726A7203</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>07CD59294ABAC5EE21C48F08</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+Utility.h</string>
+			<key>path</key>
+			<string>Source/UIImage+Utility.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>086910068844FF192A4A095B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC83FEB82F36629F7F73215D</string>
+				<string>FBEC4C5EA0EF3CDF4E321701</string>
+				<string>499C5BF0BB5CBB75DCEA8CC7</string>
+				<string>E874C9F2FA90CD87EFA11B4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-blick-AsyncImageView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08E3A1E5AAF6F90759778480</key>
+		<dict>
+			<key>fileRef</key>
+			<string>33ECEA1707DB540B17214329</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0902F48094E6F2278C627A08</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-blick-AsyncImageView.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0A1EC582D14CB4A908635D0D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E401EED821EA93843A8B5BC0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0AA8BE8CB9DDC1FFE64C13B7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C945CC66CE103905406B68F5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0AE6B962EBCF9FFAEAA4C1E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+Utility.m</string>
+			<key>path</key>
+			<string>Source/UIImage+Utility.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C1DCAEAC6799B4248017FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6D670E83B27BAA2AC1B7C638</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>0F1A205FDCC29A8CA897DC38</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-blick-XHImageViewer-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11D5A3489688A72FD6485C6B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>12E6912A4496F9EB51E89D8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>33ECEA1707DB540B17214329</string>
+				<string>E452DF70C44368E38A97A6CA</string>
+				<string>2C0787492E34F1E5C708D865</string>
+				<string>E401EED821EA93843A8B5BC0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1445195FC9A4D7DF5B98D442</key>
+		<dict>
+			<key>fileRef</key>
+			<string>774C3D681B79BE5F7B55F09C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>168BB5465C8FF3159E82A937</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5169026A1F5F98927E41A83E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>16BFECF633105EF7DC84E4CD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AsyncImageView.h</string>
+			<key>path</key>
+			<string>AsyncImageView/AsyncImageView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>197BE700FB40225AF1DE936A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7EF7CDA24B18DEE86468A30F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1FAD5A664402CBA0B0F5A1E1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-blick-ZLSwipeableView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>201A2FE240160984A91B52E3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992D6F301E645DB6D7FC3B45</string>
+				<string>9C81683757BC1F42FA879C5A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>21F0D3FD005DC5858F3508F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick-ZLSwipeableView-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>21FE3C4271833F75CFFA1486</key>
+		<dict>
+			<key>fileRef</key>
+			<string>22E8C4B4BD3B5FA74F8C877E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>2268C50F9CD3275085DAE70B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DFEFF14F48E0A1DD839F637</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>22B934637804A4E20819068C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B77479CF25D4B1FE8B8EC743</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7B710454AFBBA3956BF7634E</string>
+			<key>remoteInfo</key>
+			<string>Pods-blick-ZLSwipeableView</string>
+		</dict>
+		<key>22E8C4B4BD3B5FA74F8C877E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImageView+XHURLDownload.m</string>
+			<key>path</key>
+			<string>Source/UIImageView+XHURLDownload.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23D21733F53F01486C6F5352</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E168D4EC6E76357D7008ACA</string>
+				<string>6D670E83B27BAA2AC1B7C638</string>
+				<string>0341F749986A21A232346D65</string>
+				<string>5D6A860BBC2BFAD9FD96972D</string>
+				<string>5EFDC7853ED4C48D337EE0FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ZLSwipeableView</string>
+			<key>path</key>
+			<string>ZLSwipeableView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>243642C581C312F32AA0099F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B9F29E526B59D2A1150FF54C</string>
+				<string>7F51B34E8A530B00BFE63098</string>
+				<string>F22C84170E79C45303445ADF</string>
+				<string>765D1C11096538572FEBFB3F</string>
+				<string>348A8C17F1CDC7CADF01CD15</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25F2750474C04C5B6B87101B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6B9C27D055E26F2F7C6384D5</string>
+				<string>E70CBD860624B810385DDDE7</string>
+				<string>FF7EE2FCDD5A6952F5CD1207</string>
+				<string>21FE3C4271833F75CFFA1486</string>
+				<string>B1B12D92EBD5F07CB6942D30</string>
+				<string>CB86B594984978D3685A4FCE</string>
+				<string>F16C15D7D21F4FF19468BCDE</string>
+				<string>C70E6242727D9BF45CF14F82</string>
+				<string>0454E6DA1908D2A80E69D312</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>263CBE3AB74D2B349776D8CA</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>3B39A1FCBD70E10179257F1A</string>
+			<string>856924EC03651FED47EF7562</string>
 			<key>buildPhases</key>
 			<array>
-				<string>2D1155AACDE90F59628AB821</string>
-				<string>40B0832B8AF99FC6C707DBE6</string>
-				<string>0748A86A577896F10279D542</string>
+				<string>25F2750474C04C5B6B87101B</string>
+				<string>8C0BBDBD41A71889110921FD</string>
+				<string>DE8D2899354FB552A4CA9487</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -31,11 +427,60 @@
 			<key>productName</key>
 			<string>Pods-blick-XHImageViewer</string>
 			<key>productReference</key>
-			<string>C21DF417E471BCA9E375268E</string>
+			<string>BB98D7488CFE0324C9BF4DCD</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>01B7A7D797BC086A653537CB</key>
+		<key>2673A737C4AE9E08257A2F22</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>ECE6CA5BE3C54CD883B689D9</string>
+				<string>82262BC271DAD329C7D9CA2D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2C0787492E34F1E5C708D865</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>2C78D66E8D3206CDAA103457</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C0787492E34F1E5C708D865</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CFDC059C5D3709988832A0F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A08EFAEFAFB6450DEBB0681</string>
+				<string>5864C0550B8D52A660757F2F</string>
+				<string>F8530E5A7F3DA95A675B103E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E168D4EC6E76357D7008ACA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -43,12 +488,29 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ZLPanGestureRecognizer.h</string>
 			<key>path</key>
-			<string>Pods-blick-ZLSwipeableView-prefix.pch</string>
+			<string>ZLSwipeableView/ZLPanGestureRecognizer.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>06BF91797F07807EE5AC49B7</key>
+		<key>2F4CB287C342D5BCC5B53EC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XHImageViewer.h</string>
+			<key>path</key>
+			<string>Source/XHImageViewer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30EC21962260CF22670CB0F1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -57,147 +519,14 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-blick-XHImageViewer-dummy.m</string>
+			<string>Pods-blick-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>06F974C0D5F67B00482CA961</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ZLSwipeableView.m</string>
-			<key>path</key>
-			<string>ZLSwipeableView/ZLSwipeableView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0748A86A577896F10279D542</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>414861C0C25C1B7ABF5147DD</string>
-				<string>BA99B0D581F4FEBF3CEDE0E6</string>
-				<string>137CBA725FA9F05A359F78E5</string>
-				<string>13B230DCDF30208A17FB4330</string>
-				<string>D20BEBC8B7A6D231556E8242</string>
-				<string>CAD7A655CC81E9EC897D22B8</string>
-				<string>120E4973C336216DE12B6192</string>
-				<string>4E91C3812EBA0CE75F63AE25</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>097E414DDB36C69157E8832E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>23D856EEA544933E8EA157D8</string>
-				<string>485C2807F2AFE5828686280C</string>
-				<string>E8E932D37D7F3ACCEFFF23C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>09DB2FA8BB2777F4DF815207</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>1_1280x800-1.jpeg</string>
-			<key>path</key>
-			<string>Source/Resources/1_1280x800-1.jpeg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BDB7AB691B37F4AB60D51FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25EDAA4227B05C7811F4F756</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0C29FD859C1DC95461A355BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-blick-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CB6DAA2136AB4E5806EA7BC</key>
+		<key>3310267F4452AE613F98B638</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>B4A201E61FE15C65E0480EE0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-blick-XLMediaZoom/Pods-blick-XLMediaZoom-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0D98FFE9A8835B060FD0DBF1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>767F056D9C10759F23AFAF0D</string>
+			<string>21F0D3FD005DC5858F3508F4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -212,6 +541,8 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-ZLSwipeableView/Pods-blick-ZLSwipeableView-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -241,120 +572,58 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>120E4973C336216DE12B6192</key>
+		<key>33ECEA1707DB540B17214329</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A1E6E78E5DC9985283DE6CEB</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>137CBA725FA9F05A359F78E5</key>
+		<key>348A8C17F1CDC7CADF01CD15</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A0F144A195D4BD425D4CBEE5</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>placeholder.jpeg</string>
+			<key>path</key>
+			<string>Source/Resources/placeholder.jpeg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13B230DCDF30208A17FB4330</key>
+		<key>3C1495F25C04EE7E99718FCB</key>
 		<dict>
-			<key>fileRef</key>
-			<string>EECED9D98073E37574711251</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1434D058087B592EBB1F0980</key>
-		<dict>
-			<key>children</key>
+			<key>buildConfigurationList</key>
+			<string>786B2D6AC0B79E755239C24A</string>
+			<key>buildPhases</key>
 			<array>
-				<string>0C29FD859C1DC95461A355BE</string>
-				<string>5AB1554B02EBA7556C263F50</string>
-				<string>54CA77DC5204193614A9F5C0</string>
-				<string>1887087FFA4B4EFF2C8A5937</string>
-				<string>506D68DC47901CA1778D4530</string>
-				<string>767F056D9C10759F23AFAF0D</string>
-				<string>4FD2CBBBC98AE590789B2B7C</string>
+				<string>EADABD776DEC0CCFE46E271E</string>
+				<string>8763C00CBC36C08130C94025</string>
+				<string>0AA8BE8CB9DDC1FFE64C13B7</string>
 			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-blick</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-blick</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Pods-blick-AsyncImageView</string>
+			<key>productName</key>
+			<string>Pods-blick-AsyncImageView</string>
+			<key>productReference</key>
+			<string>0902F48094E6F2278C627A08</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>1479FE52C45B6762B80EEECF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLVideoZoom.m</string>
-			<key>path</key>
-			<string>XLMediaZoom/XL/XLVideoZoom.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1887087FFA4B4EFF2C8A5937</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-blick-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18EBF203B685D462426ACBFC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F991D3B560F32DDEA159E6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>19D8ABC60A8AEEF3687000BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-blick-XHImageViewer-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B82AFF5816C5C9138DF06AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B981D59B3673E3F9EF4C3AF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2133BB1848653A23F2DFB1CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>012B1C30298D1D438A67E225</string>
-			<key>targetProxy</key>
-			<string>84BF8F8DD4F617EA2758D2A4</string>
-		</dict>
-		<key>23D856EEA544933E8EA157D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F117B04BC2910D99B90E85A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25EDAA4227B05C7811F4F756</key>
+		<key>3DFEFF14F48E0A1DD839F637</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -363,78 +632,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLVideoZoom.h</string>
+			<string>XHCacheManager.h</string>
 			<key>path</key>
-			<string>XLMediaZoom/XL/XLVideoZoom.h</string>
+			<string>Source/XHCacheManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2602E62A645180A698E8EDC1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D0F993FCD60B969D2BA663A0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-blick-ZLSwipeableView/Pods-blick-ZLSwipeableView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2881954690B1EF6D69F7C40F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XHZoomingImageView.m</string>
-			<key>path</key>
-			<string>Source/XHZoomingImageView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AB93F4D356D87974DE2C42D</key>
+		<key>440684A7E24A20AC0BFFF33B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -447,28 +651,84 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2B2EA051184C6ED2BFA72336</key>
+		<key>4621442901F78C6F378DFD30</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-blick-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4725B7AA4549DF7C05F772C0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>59A8115B07AE574D899FB5C0</string>
+				<string>DF947C6544D1915387D9C8CE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>47B4F05DA58D6B1F2A4515F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-blick-XLMediaZoom-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>499C5BF0BB5CBB75DCEA8CC7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-blick-AsyncImageView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50F247AA2A2B20FFE9F4B0A5</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>target</key>
-			<string>C6F2968D879FD6CB9C7F6A8E</string>
+			<string>F242E442AB8750424C001659</string>
 			<key>targetProxy</key>
-			<string>673D1344CC6D6E256302D496</string>
+			<string>AC59F5712CE01D2684811944</string>
 		</dict>
-		<key>2B675F5096993E489742C652</key>
+		<key>5169026A1F5F98927E41A83E</key>
 		<dict>
-			<key>fileRef</key>
-			<string>2881954690B1EF6D69F7C40F</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XHViewState.h</string>
+			<key>path</key>
+			<string>Source/XHViewState.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2BEC49D6C569F0CD5200B0B0</key>
+		<key>55E7AE9A6A251B0105FF8236</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -535,38 +795,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2C45FF4F8C71A7952637F78E</key>
+		<key>5701C2BD77DB88280811BD9C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-blick-XLMediaZoom-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5864C0550B8D52A660757F2F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FF81CE4A9A85B61AAD8DC67A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D1155AACDE90F59628AB821</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>85B55F7D45011BF4A155FEF8</string>
-				<string>76FE474B2844DD5D24D98BD6</string>
-				<string>40524C7B21FB58FA688A3988</string>
-				<string>8CD39B636D1450619B45C602</string>
-				<string>6D10A3F075E2481AE2A5D88C</string>
-				<string>864467523C0FC900BDF8EBB8</string>
-				<string>4164E677572AA44B7BEB9F2B</string>
-				<string>F8D3AB92CCFB4EBA60C1AD04</string>
-				<string>2B675F5096993E489742C652</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D186507C2F911C1AE6983D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89EFB98FD573189721494E4E</string>
+			<string>C720E2C0D33D8C315A9C1C75</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -575,14 +820,148 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>2ED8ADCF17D1015F934A4FE6</key>
+		<key>594D692BD709C3DC49B8BAC7</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>21F0D3FD005DC5858F3508F4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-ZLSwipeableView/Pods-blick-ZLSwipeableView-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>59A8115B07AE574D899FB5C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7545832FCBF05C8846FA264C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A08EFAEFAFB6450DEBB0681</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5701C2BD77DB88280811BD9C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5AFE91E42883698F4D8FE6D6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E452DF70C44368E38A97A6CA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5CBBC2D59CCFA11C0C45B48C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DAF2A8AA54C7F90E4F1BA83A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5D6A860BBC2BFAD9FD96972D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ZLSwipeableView.m</string>
+			<key>path</key>
+			<string>ZLSwipeableView/ZLSwipeableView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5EFDC7853ED4C48D337EE0FF</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>2AB93F4D356D87974DE2C42D</string>
-				<string>D0F993FCD60B969D2BA663A0</string>
-				<string>9F117B04BC2910D99B90E85A</string>
-				<string>01B7A7D797BC086A653537CB</string>
+				<string>440684A7E24A20AC0BFFF33B</string>
+				<string>21F0D3FD005DC5858F3508F4</string>
+				<string>1FAD5A664402CBA0B0F5A1E1</string>
+				<string>BD9F8EAC11FE2F4F28453134</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -593,137 +972,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2FFE2B7C414109F7781E716F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>945047FA9123C01329D128F8</string>
-				<string>4768CFE509B2CCF12D7AFD4A</string>
-				<string>B981D59B3673E3F9EF4C3AF9</string>
-				<string>06F974C0D5F67B00482CA961</string>
-				<string>2ED8ADCF17D1015F934A4FE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ZLSwipeableView</string>
-			<key>path</key>
-			<string>ZLSwipeableView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30BC334A6989858571B9F902</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>903009119CF347FE820E6C28</string>
-				<string>67A0AB44F7C4799C98D96255</string>
-				<string>CEEA68822FA05F88C812E3F3</string>
-				<string>E8690958FC47C320967BE455</string>
-				<string>CFD88EADCA624F6D0277319D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32ACC1980144B64585879949</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C15B7BF963C6783D5F4E666F</string>
-				<string>1B82AFF5816C5C9138DF06AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>339DE81914928A7F428D48DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-blick-XLMediaZoom-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>360B88CCC30D0BDE26DFCE51</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4C5A4219D6E0FF81402E1273</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-blick-XHImageViewer/Pods-blick-XHImageViewer-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>36438D8E6AD894C0169FDB56</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+XHMD5.m</string>
-			<key>path</key>
-			<string>Source/NSString+XHMD5.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B39A1FCBD70E10179257F1A</key>
+		<key>5F9E9EBCF4F509E4DE7D16C1</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>360B88CCC30D0BDE26DFCE51</string>
-				<string>9FB30AC50FC342CA7C5E65E7</string>
+				<string>3310267F4452AE613F98B638</string>
+				<string>594D692BD709C3DC49B8BAC7</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -732,106 +986,96 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>3FD01D3DDE40783A981CF031</key>
+		<key>5FB35AFC58A900A04E580C84</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D0F993FCD60B969D2BA663A0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-blick-ZLSwipeableView/Pods-blick-ZLSwipeableView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>40524C7B21FB58FA688A3988</key>
+		<key>60057967D0878E1818BC5C31</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B77479CF25D4B1FE8B8EC743</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>3C1495F25C04EE7E99718FCB</string>
+			<key>remoteInfo</key>
+			<string>Pods-blick-AsyncImageView</string>
+		</dict>
+		<key>60307A39B40D2F266C22424C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DF6D0924E73D3974ADA0A1C7</string>
+			<string>E401EED821EA93843A8B5BC0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
 		</dict>
-		<key>40B0832B8AF99FC6C707DBE6</key>
+		<key>643048CA7B4C9F00E1F1F173</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7545832FCBF05C8846FA264C</string>
+				<string>C720E2C0D33D8C315A9C1C75</string>
+				<string>CB3CF1E59B9303A79F58A8E7</string>
+				<string>EF06979CE22738AE1951D0C3</string>
+				<string>70F174B00E7490AF9EBD4949</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>XLMediaZoom</string>
+			<key>path</key>
+			<string>XLMediaZoom</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>64C7EA6BC795BC06ECBCF2F9</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>8A69E12D106B0AD28F20BF06</string>
-				<string>93E1F5DCBAF1B30B7011A7DE</string>
-				<string>8CCF19049AFE202DEEEEAA64</string>
+				<string>2C78D66E8D3206CDAA103457</string>
+				<string>0A1EC582D14CB4A908635D0D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>41185AB8450E0C257B8A8161</key>
+		<key>673F92F67E1F502D726A7203</key>
 		<dict>
+			<key>children</key>
+			<array>
+				<string>C90355747F3A00C2B0235726</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>414861C0C25C1B7ABF5147DD</key>
+		<key>67444AF1030069255EFCD750</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E3803C10A4F83D0567A84C5F</string>
+			<string>E452DF70C44368E38A97A6CA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4164E677572AA44B7BEB9F2B</key>
+		<key>6B9C27D055E26F2F7C6384D5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D75E7A532F6E0AE8864F2689</string>
+			<string>B16894F3DF39A78F53F787BE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -840,14 +1084,49 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>43A4244A19120DE76D38770B</key>
+		<key>6C55F9C649287A507AA8CC2A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>FF81CE4A9A85B61AAD8DC67A</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-blick-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4768CFE509B2CCF12D7AFD4A</key>
+		<key>6C6DA0A0BD0363BF2AC277DE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-blick-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CE5A26AB72315EA487A3C9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>77C0307BE0D4B8D90C52EFEE</string>
+				<string>E266E0B0DB3C0566528A1137</string>
+				<string>643048CA7B4C9F00E1F1F173</string>
+				<string>23D21733F53F01486C6F5352</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D670E83B27BAA2AC1B7C638</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -862,295 +1141,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>485C2807F2AFE5828686280C</key>
+		<key>6F7C3443E544F15966ABEB50</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4768CFE509B2CCF12D7AFD4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>4B51A8DAAFFB3C85DDED3EF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Utility.h</string>
-			<key>path</key>
-			<string>Source/UIImage+Utility.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C5A4219D6E0FF81402E1273</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-blick-XHImageViewer-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D72E1C605FECAEE4FEDA3ED</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FBF3EDA310D8024E6FDA0197</string>
-			<key>buildPhases</key>
-			<array>
-				<string>097E414DDB36C69157E8832E</string>
-				<string>98B0CA5F31578FDA3BDF47C4</string>
-				<string>32ACC1980144B64585879949</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-blick-ZLSwipeableView</string>
-			<key>productName</key>
-			<string>Pods-blick-ZLSwipeableView</string>
-			<key>productReference</key>
-			<string>7B5ECFB55EB2127B47F2810D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>4E91C3812EBA0CE75F63AE25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93A188AFD9D09375800D0D88</string>
+			<string>2C0787492E34F1E5C708D865</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4FD2CBBBC98AE590789B2B7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-blick.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>506D68DC47901CA1778D4530</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-blick-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50774D9A822F75F8C508F6C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XHImageViewer.h</string>
-			<key>path</key>
-			<string>Source/XHImageViewer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>510C4976F41B2C50F229D4B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FF81CE4A9A85B61AAD8DC67A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>547179198531F106BDD14869</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>5_1280x800.jpeg</string>
-			<key>path</key>
-			<string>Source/Resources/5_1280x800.jpeg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54CA77DC5204193614A9F5C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-blick-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56AF3827D937D1234BA19C9A</key>
+		<key>70F174B00E7490AF9EBD4949</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>FFA3CE765561420ACC100A3F</string>
-				<string>09DB2FA8BB2777F4DF815207</string>
-				<string>67555EC8DDB1BDD566284887</string>
-				<string>547179198531F106BDD14869</string>
-				<string>701F07E85B2D713EBD6FE20D</string>
+				<string>82327E7EC696490E584BFDC3</string>
+				<string>C45106B001D5F4B2B5F70569</string>
+				<string>5701C2BD77DB88280811BD9C</string>
+				<string>47B4F05DA58D6B1F2A4515F1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5AB1554B02EBA7556C263F50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Pods-blick-acknowledgements.plist</string>
+			<string>../Target Support Files/Pods-blick-XLMediaZoom</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5BCE8ACF4D7D21B66C0D0966</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-blick-XHImageViewer.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60BF1F1A99BB7ED776FE48DC</key>
+		<key>70FDADDA21DF2B1F53FD337D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7066D0F200D0E94ABA0893BD</string>
+			<string>9D7AC1804CB7A81743832F87</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>673D1344CC6D6E256302D496</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>AAEC948F822BAF0997CB4133</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C6F2968D879FD6CB9C7F6A8E</string>
-			<key>remoteInfo</key>
-			<string>Pods-blick-XLMediaZoom</string>
-		</dict>
-		<key>67555EC8DDB1BDD566284887</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>4_1366x768.jpeg</string>
-			<key>path</key>
-			<string>Source/Resources/4_1366x768.jpeg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67A0AB44F7C4799C98D96255</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BEEF2B9A4BC49C12CFF17708</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D0D2668331199DB9E6411A0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6D10A3F075E2481AE2A5D88C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA2B2DC50F15728999432F12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6D61945747AA313EC5326F01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XHViewState.m</string>
-			<key>path</key>
-			<string>Source/XHViewState.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>701F07E85B2D713EBD6FE20D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>placeholder.jpeg</string>
-			<key>path</key>
-			<string>Source/Resources/placeholder.jpeg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7066D0F200D0E94ABA0893BD</key>
+		<key>7545832FCBF05C8846FA264C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1165,7 +1188,212 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>71BF353ABA68C4CF63493A09</key>
+		<key>765D1C11096538572FEBFB3F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>5_1280x800.jpeg</string>
+			<key>path</key>
+			<string>Source/Resources/5_1280x800.jpeg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76C647C805A0C348E5FE621E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>499C5BF0BB5CBB75DCEA8CC7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>774C3D681B79BE5F7B55F09C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XHFileAttribute.h</string>
+			<key>path</key>
+			<string>Source/XHFileAttribute.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77C0307BE0D4B8D90C52EFEE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>16BFECF633105EF7DC84E4CD</string>
+				<string>AE477F62384F8517F81B3086</string>
+				<string>086910068844FF192A4A095B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AsyncImageView</string>
+			<key>path</key>
+			<string>AsyncImageView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>786B2D6AC0B79E755239C24A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8FD9B3E9F9A4174E5987BA2E</string>
+				<string>ACAE87B01F19150C475D0C2C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7B710454AFBBA3956BF7634E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5F9E9EBCF4F509E4DE7D16C1</string>
+			<key>buildPhases</key>
+			<array>
+				<string>AA0D1026CEE3AE6260B84DFA</string>
+				<string>64C7EA6BC795BC06ECBCF2F9</string>
+				<string>201A2FE240160984A91B52E3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-blick-ZLSwipeableView</string>
+			<key>productName</key>
+			<string>Pods-blick-ZLSwipeableView</string>
+			<key>productReference</key>
+			<string>BBED1DEEE14C270B0350A1E2</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>7D10D06BB8583BBCE7930788</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9F393EA9E3F637845AC8FEE9</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9E9E48D87D56E551BB5180E1</string>
+				<string>197BE700FB40225AF1DE936A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>CCDC6F39AF98AB54C84A39C9</string>
+				<string>A0DEF0A3785B12CB123C132F</string>
+				<string>50F247AA2A2B20FFE9F4B0A5</string>
+				<string>E1819DCCB0FF9EF180DE9DD8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-blick</string>
+			<key>productName</key>
+			<string>Pods-blick</string>
+			<key>productReference</key>
+			<string>A94FF35A352C6DA0B49B3C20</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>7EF7CDA24B18DEE86468A30F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C0787492E34F1E5C708D865</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F51B34E8A530B00BFE63098</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>1_1280x800-1.jpeg</string>
+			<key>path</key>
+			<string>Source/Resources/1_1280x800-1.jpeg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FDDB244C20BC6EAA4F20CB4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XHZoomingImageView.m</string>
+			<key>path</key>
+			<string>Source/XHZoomingImageView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82262BC271DAD329C7D9CA2D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C45106B001D5F4B2B5F70569</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-XLMediaZoom/Pods-blick-XLMediaZoom-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>82327E7EC696490E584BFDC3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1178,59 +1406,47 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>71DC038901D4713DCA854B26</key>
+		<key>84BF7D3896D2309799185B87</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>E3803C10A4F83D0567A84C5F</string>
-				<string>36438D8E6AD894C0169FDB56</string>
-				<string>4B51A8DAAFFB3C85DDED3EF0</string>
-				<string>DF6D0924E73D3974ADA0A1C7</string>
-				<string>A0F144A195D4BD425D4CBEE5</string>
-				<string>98D17171CA01675D32D652D3</string>
-				<string>EECED9D98073E37574711251</string>
-				<string>BA2B2DC50F15728999432F12</string>
-				<string>C951317460E2D46BE2A38B38</string>
-				<string>F8E7551390AF694E11AEB724</string>
-				<string>50774D9A822F75F8C508F6C4</string>
-				<string>D75E7A532F6E0AE8864F2689</string>
-				<string>A1E6E78E5DC9985283DE6CEB</string>
-				<string>6D61945747AA313EC5326F01</string>
-				<string>93A188AFD9D09375800D0D88</string>
-				<string>2881954690B1EF6D69F7C40F</string>
-				<string>56AF3827D937D1234BA19C9A</string>
-				<string>916969C310786CE19E9E4C99</string>
+				<string>12E6912A4496F9EB51E89D8D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>XHImageViewer</string>
-			<key>path</key>
-			<string>XHImageViewer</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>767F056D9C10759F23AFAF0D</key>
+		<key>856924EC03651FED47EF7562</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>AE38675FC266D3AE7E067C5E</string>
+				<string>E7D841FB312D42882D2F65B8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-blick.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>76FE474B2844DD5D24D98BD6</key>
+		<key>8763C00CBC36C08130C94025</key>
 		<dict>
-			<key>fileRef</key>
-			<string>06BF91797F07807EE5AC49B7</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6F7C3443E544F15966ABEB50</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>7B5ECFB55EB2127B47F2810D</key>
+		<key>89B555E0CA59F7ACA0C245FB</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -1239,67 +1455,29 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>libPods-blick-ZLSwipeableView.a</string>
+			<string>libPods-blick-XLMediaZoom.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>7B83E803E8FFA570AF8C8AEF</key>
+		<key>8C0BBDBD41A71889110921FD</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>18EBF203B685D462426ACBFC</string>
-				<string>FFF3083710A6D4F80E5B5247</string>
-				<string>510C4976F41B2C50F229D4B6</string>
-				<string>CB97F5CD01F3B3BC6186D044</string>
+				<string>67444AF1030069255EFCD750</string>
+				<string>038F07F1BC8DD40988C287E1</string>
+				<string>60307A39B40D2F266C22424C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>7BE208F3CB12F92F3EBF8D5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7066D0F200D0E94ABA0893BD</string>
-				<string>89EFB98FD573189721494E4E</string>
-				<string>25EDAA4227B05C7811F4F756</string>
-				<string>1479FE52C45B6762B80EEECF</string>
-				<string>7FB679F84A4105C034E0CD9E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>XLMediaZoom</string>
-			<key>path</key>
-			<string>XLMediaZoom</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FB679F84A4105C034E0CD9E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>71BF353ABA68C4CF63493A09</string>
-				<string>B4A201E61FE15C65E0480EE0</string>
-				<string>CF21E9745C6F7EB16E9FC250</string>
-				<string>339DE81914928A7F428D48DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-blick-XLMediaZoom</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8237E97B0506D33CAE3BFEAB</key>
+		<key>8FD9B3E9F9A4174E5987BA2E</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>B4A201E61FE15C65E0480EE0</string>
+			<string>FBEC4C5EA0EF3CDF4E321701</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1315,7 +1493,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-blick-XLMediaZoom/Pods-blick-XLMediaZoom-prefix.pch</string>
+				<string>Target Support Files/Pods-blick-AsyncImageView/Pods-blick-AsyncImageView-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -1345,64 +1523,14 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>84BF8F8DD4F617EA2758D2A4</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>AAEC948F822BAF0997CB4133</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>012B1C30298D1D438A67E225</string>
-			<key>remoteInfo</key>
-			<string>Pods-blick-XHImageViewer</string>
-		</dict>
-		<key>85B55F7D45011BF4A155FEF8</key>
+		<key>91868BED0A0021B2589B1432</key>
 		<dict>
 			<key>fileRef</key>
-			<string>36438D8E6AD894C0169FDB56</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>864467523C0FC900BDF8EBB8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8E7551390AF694E11AEB724</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>876951B4990A0C27E4842258</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>AAEC948F822BAF0997CB4133</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4D72E1C605FECAEE4FEDA3ED</string>
-			<key>remoteInfo</key>
-			<string>Pods-blick-ZLSwipeableView</string>
-		</dict>
-		<key>8987F3F1C7FB6A35EAF0A37B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54CA77DC5204193614A9F5C0</string>
+			<string>ABC5CFFAF6F1F78FB5AE4B7A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>89EFB98FD573189721494E4E</key>
+		<key>91F9B1DEC919DE9C8AB13111</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1411,87 +1539,42 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLMediaZoom.m</string>
+			<string>XHViewState.m</string>
 			<key>path</key>
-			<string>XLMediaZoom/XL/XLMediaZoom.m</string>
+			<string>Source/XHViewState.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8A69E12D106B0AD28F20BF06</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D0D2668331199DB9E6411A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CCF19049AFE202DEEEEAA64</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41185AB8450E0C257B8A8161</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CD39B636D1450619B45C602</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98D17171CA01675D32D652D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>8EEBEB48BE02903F1D718150</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8987F3F1C7FB6A35EAF0A37B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>903009119CF347FE820E6C28</key>
+		<key>989130467833ED991B7F17F6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Podfile</string>
+			<string>NSString+XHMD5.h</string>
 			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>916969C310786CE19E9E4C99</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5BCE8ACF4D7D21B66C0D0966</string>
-				<string>4C5A4219D6E0FF81402E1273</string>
-				<string>06BF91797F07807EE5AC49B7</string>
-				<string>19D8ABC60A8AEEF3687000BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-blick-XHImageViewer</string>
+			<string>Source/NSString+XHMD5.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>93A188AFD9D09375800D0D88</key>
+		<key>992D6F301E645DB6D7FC3B45</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E168D4EC6E76357D7008ACA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C81683757BC1F42FA879C5A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0341F749986A21A232346D65</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D7AC1804CB7A81743832F87</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1506,106 +1589,96 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>93E1F5DCBAF1B30B7011A7DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FF81CE4A9A85B61AAD8DC67A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>945047FA9123C01329D128F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ZLPanGestureRecognizer.h</string>
-			<key>path</key>
-			<string>ZLSwipeableView/ZLPanGestureRecognizer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>977FB44923B93B8AD22565C5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4FD2CBBBC98AE590789B2B7C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>98B0CA5F31578FDA3BDF47C4</key>
+		<key>9E9E48D87D56E551BB5180E1</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>43A4244A19120DE76D38770B</string>
-				<string>A3861998A868767605280895</string>
+				<string>F8C6160D1D8A7ACD41E0420F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9EE1F5076657E95C07CEDE57</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BBDD6D5BD440414ED2CA5FD1</string>
+				<string>BE17B4BCEFD89B79455C62A2</string>
+				<string>E32E913DB58229FD52BA1098</string>
+				<string>0F1A205FDCC29A8CA897DC38</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-blick-XHImageViewer</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F393EA9E3F637845AC8FEE9</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EB488B3556790E89B01AA00A</string>
+				<string>5CBBC2D59CCFA11C0C45B48C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A0DEF0A3785B12CB123C132F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>263CBE3AB74D2B349776D8CA</string>
+			<key>targetProxy</key>
+			<string>ADCC14C336DBFC2A76FCEEC3</string>
+		</dict>
+		<key>A104E830B99F6EED9F980AA4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2F4CB287C342D5BCC5B53EC8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A42A86EEC9E28F172A1DA1C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AE477F62384F8517F81B3086</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>A560BA8CDA941C328A02C82C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>08E3A1E5AAF6F90759778480</string>
+				<string>5AFE91E42883698F4D8FE6D6</string>
+				<string>BF3A96F89B2989B7B3A2F3FA</string>
+				<string>B856E80C893456E580B4F9AF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>98D17171CA01675D32D652D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+XHURLDownload.m</string>
-			<key>path</key>
-			<string>Source/UIImageView+XHURLDownload.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AE511E421E266D1FDE31B90</key>
+		<key>A94FF35A352C6DA0B49B3C20</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -1614,87 +1687,33 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>libPods-blick-XLMediaZoom.a</string>
+			<string>libPods-blick.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>9F117B04BC2910D99B90E85A</key>
+		<key>A99DB155EA5A0AF0423896E8</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>07CD59294ABAC5EE21C48F08</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-blick-ZLSwipeableView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>9F991D3B560F32DDEA159E6E</key>
+		<key>AA0D1026CEE3AE6260B84DFA</key>
 		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D6765766E07EE57B7C8072CA</string>
+				<string>0C1DCAEAC6799B4248017FBA</string>
+				<string>F876D97F26C9F7525288B38C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AVFoundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>9FB30AC50FC342CA7C5E65E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4C5A4219D6E0FF81402E1273</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-blick-XHImageViewer/Pods-blick-XHImageViewer-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A0F144A195D4BD425D4CBEE5</key>
+		<key>ABC5CFFAF6F1F78FB5AE4B7A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1709,349 +1728,189 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A1E6E78E5DC9985283DE6CEB</key>
+		<key>AC59F5712CE01D2684811944</key>
 		<dict>
-			<key>includeInIndex</key>
+			<key>containerPortal</key>
+			<string>B77479CF25D4B1FE8B8EC743</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XHViewState.h</string>
-			<key>path</key>
-			<string>Source/XHViewState.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>F242E442AB8750424C001659</string>
+			<key>remoteInfo</key>
+			<string>Pods-blick-XLMediaZoom</string>
 		</dict>
-		<key>A3861998A868767605280895</key>
+		<key>ACAE87B01F19150C475D0C2C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>41185AB8450E0C257B8A8161</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AAEC948F822BAF0997CB4133</key>
-		<dict>
-			<key>attributes</key>
+			<key>baseConfigurationReference</key>
+			<string>FBEC4C5EA0EF3CDF4E321701</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-AsyncImageView/Pods-blick-AsyncImageView-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
 			</dict>
-			<key>buildConfigurationList</key>
-			<string>DAF4AAC1BDD4B2826F217423</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
 			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>30BC334A6989858571B9F902</string>
-			<key>productRefGroup</key>
-			<string>E8690958FC47C320967BE455</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C84BA188555FDB8D473BD9B4</string>
-				<string>012B1C30298D1D438A67E225</string>
-				<string>C6F2968D879FD6CB9C7F6A8E</string>
-				<string>4D72E1C605FECAEE4FEDA3ED</string>
-			</array>
-		</dict>
-		<key>B4A201E61FE15C65E0480EE0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-blick-XLMediaZoom-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B981D59B3673E3F9EF4C3AF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>ZLSwipeableView.h</string>
-			<key>path</key>
-			<string>ZLSwipeableView/ZLSwipeableView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA2B2DC50F15728999432F12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XHCacheManager.m</string>
-			<key>path</key>
-			<string>Source/XHCacheManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA99B0D581F4FEBF3CEDE0E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B51A8DAAFFB3C85DDED3EF0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BEEF2B9A4BC49C12CFF17708</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F991D3B560F32DDEA159E6E</string>
-				<string>6D0D2668331199DB9E6411A0</string>
-				<string>FF81CE4A9A85B61AAD8DC67A</string>
-				<string>41185AB8450E0C257B8A8161</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C15B7BF963C6783D5F4E666F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>945047FA9123C01329D128F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C21DF417E471BCA9E375268E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-blick-XHImageViewer.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C6F2968D879FD6CB9C7F6A8E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D9E4BDF01E65B45EF7ED3F6C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FAF29280062ADAC6BC0014DA</string>
-				<string>7B83E803E8FFA570AF8C8AEF</string>
-				<string>EE774A59DC29F003BBB4C237</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-blick-XLMediaZoom</string>
-			<key>productName</key>
-			<string>Pods-blick-XLMediaZoom</string>
-			<key>productReference</key>
-			<string>9AE511E421E266D1FDE31B90</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C84BA188555FDB8D473BD9B4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F808513EE55941668C9D81B5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8EEBEB48BE02903F1D718150</string>
-				<string>E7DE4B8D722F77F341E25FD2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2133BB1848653A23F2DFB1CD</string>
-				<string>2B2EA051184C6ED2BFA72336</string>
-				<string>D97EBF0B4A44CED90969C4E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-blick</string>
-			<key>productName</key>
-			<string>Pods-blick</string>
-			<key>productReference</key>
-			<string>EABC28818DA6170D877BEF7E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C951317460E2D46BE2A38B38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XHFileAttribute.h</string>
-			<key>path</key>
-			<string>Source/XHFileAttribute.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CAD7A655CC81E9EC897D22B8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>50774D9A822F75F8C508F6C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB97F5CD01F3B3BC6186D044</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41185AB8450E0C257B8A8161</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CEEA68822FA05F88C812E3F3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>71DC038901D4713DCA854B26</string>
-				<string>7BE208F3CB12F92F3EBF8D5D</string>
-				<string>2FFE2B7C414109F7781E716F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CF21E9745C6F7EB16E9FC250</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-blick-XLMediaZoom-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFD88EADCA624F6D0277319D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1434D058087B592EBB1F0980</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0F993FCD60B969D2BA663A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-blick-ZLSwipeableView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D20BEBC8B7A6D231556E8242</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C951317460E2D46BE2A38B38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D75E7A532F6E0AE8864F2689</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XHImageViewer.m</string>
-			<key>path</key>
-			<string>Source/XHImageViewer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D97EBF0B4A44CED90969C4E4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>4D72E1C605FECAEE4FEDA3ED</string>
-			<key>targetProxy</key>
-			<string>876951B4990A0C27E4842258</string>
-		</dict>
-		<key>D9E4BDF01E65B45EF7ED3F6C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8237E97B0506D33CAE3BFEAB</string>
-				<string>0CB6DAA2136AB4E5806EA7BC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
 			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>DAF4AAC1BDD4B2826F217423</key>
+		<key>AD8FD79F6D4891A574DB3E99</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2BEC49D6C569F0CD5200B0B0</string>
-				<string>DD0D452EF6FA3535FA955CF9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XHFileAttribute.m</string>
+			<key>path</key>
+			<string>Source/XHFileAttribute.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DD0D452EF6FA3535FA955CF9</key>
+		<key>ADCC14C336DBFC2A76FCEEC3</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B77479CF25D4B1FE8B8EC743</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>263CBE3AB74D2B349776D8CA</string>
+			<key>remoteInfo</key>
+			<string>Pods-blick-XHImageViewer</string>
+		</dict>
+		<key>AE38675FC266D3AE7E067C5E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BE17B4BCEFD89B79455C62A2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-XHImageViewer/Pods-blick-XHImageViewer-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>AE477F62384F8517F81B3086</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AsyncImageView.m</string>
+			<key>path</key>
+			<string>AsyncImageView/AsyncImageView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B16894F3DF39A78F53F787BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+XHMD5.m</string>
+			<key>path</key>
+			<string>Source/NSString+XHMD5.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1B12D92EBD5F07CB6942D30</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C934836600ECBC479E9C014A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>B269DE8CF414DFD6A11FA333</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -2113,34 +1972,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DE93BAB8ED4FF7E430D2F036</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1479FE52C45B6762B80EEECF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DF6D0924E73D3974ADA0A1C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Utility.m</string>
-			<key>path</key>
-			<string>Source/UIImage+Utility.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3803C10A4F83D0567A84C5F</key>
+		<key>B543C14E270DF31F848B441B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2148,187 +1980,59 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+XHMD5.h</string>
 			<key>path</key>
-			<string>Source/NSString+XHMD5.h</string>
+			<string>Pods-blick-environment.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E7DE4B8D722F77F341E25FD2</key>
+		<key>B77479CF25D4B1FE8B8EC743</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2C45FF4F8C71A7952637F78E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E8690958FC47C320967BE455</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EABC28818DA6170D877BEF7E</string>
-				<string>C21DF417E471BCA9E375268E</string>
-				<string>9AE511E421E266D1FDE31B90</string>
-				<string>7B5ECFB55EB2127B47F2810D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8E932D37D7F3ACCEFFF23C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06F974C0D5F67B00482CA961</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
+			<key>attributes</key>
 			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
 			</dict>
-		</dict>
-		<key>EABC28818DA6170D877BEF7E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
+			<key>buildConfigurationList</key>
+			<string>E4CF572263BA740B8FC3E342</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
 			<string>0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-blick.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EE774A59DC29F003BBB4C237</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
 			<array>
-				<string>60BF1F1A99BB7ED776FE48DC</string>
-				<string>0BDB7AB691B37F4AB60D51FF</string>
+				<string>en</string>
 			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EECED9D98073E37574711251</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XHCacheManager.h</string>
-			<key>path</key>
-			<string>Source/XHCacheManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F808513EE55941668C9D81B5</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>mainGroup</key>
+			<string>04F4F5EB80B455BED4E909E8</string>
+			<key>productRefGroup</key>
+			<string>FA28E345A62F4D4B238470D2</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
 			<array>
-				<string>0D98FFE9A8835B060FD0DBF1</string>
-				<string>977FB44923B93B8AD22565C5</string>
+				<string>7D10D06BB8583BBCE7930788</string>
+				<string>3C1495F25C04EE7E99718FCB</string>
+				<string>263CBE3AB74D2B349776D8CA</string>
+				<string>F242E442AB8750424C001659</string>
+				<string>7B710454AFBBA3956BF7634E</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>F8D3AB92CCFB4EBA60C1AD04</key>
+		<key>B856E80C893456E580B4F9AF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6D61945747AA313EC5326F01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F8E7551390AF694E11AEB724</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XHFileAttribute.m</string>
-			<key>path</key>
-			<string>Source/XHFileAttribute.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAF29280062ADAC6BC0014DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FB2DE81CF356D3C244C220EE</string>
-				<string>2D186507C2F911C1AE6983D4</string>
-				<string>DE93BAB8ED4FF7E430D2F036</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FB2DE81CF356D3C244C220EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF21E9745C6F7EB16E9FC250</string>
+			<string>E401EED821EA93843A8B5BC0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FBF3EDA310D8024E6FDA0197</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3FD01D3DDE40783A981CF031</string>
-				<string>2602E62A645180A698E8EDC1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FF81CE4A9A85B61AAD8DC67A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FFA3CE765561420ACC100A3F</key>
+		<key>B9F29E526B59D2A1150FF54C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2341,15 +2045,678 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FFF3083710A6D4F80E5B5247</key>
+		<key>B9FD7C803471E1F46E834846</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6D0D2668331199DB9E6411A0</string>
+			<string>989130467833ED991B7F17F6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>BB98D7488CFE0324C9BF4DCD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-blick-XHImageViewer.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BBDD6D5BD440414ED2CA5FD1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick-XHImageViewer.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BBED1DEEE14C270B0350A1E2</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-blick-ZLSwipeableView.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BD9F8EAC11FE2F4F28453134</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-blick-ZLSwipeableView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE17B4BCEFD89B79455C62A2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick-XHImageViewer-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF3A96F89B2989B7B3A2F3FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C0787492E34F1E5C708D865</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C45106B001D5F4B2B5F70569</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick-XLMediaZoom-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C70E6242727D9BF45CF14F82</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91F9B1DEC919DE9C8AB13111</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>C720E2C0D33D8C315A9C1C75</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLMediaZoom.m</string>
+			<key>path</key>
+			<string>XLMediaZoom/XL/XLMediaZoom.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C90355747F3A00C2B0235726</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6C55F9C649287A507AA8CC2A</string>
+				<string>4621442901F78C6F378DFD30</string>
+				<string>30EC21962260CF22670CB0F1</string>
+				<string>B543C14E270DF31F848B441B</string>
+				<string>6C6DA0A0BD0363BF2AC277DE</string>
+				<string>5FB35AFC58A900A04E580C84</string>
+				<string>DAF2A8AA54C7F90E4F1BA83A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-blick</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-blick</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C934836600ECBC479E9C014A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XHCacheManager.m</string>
+			<key>path</key>
+			<string>Source/XHCacheManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C945CC66CE103905406B68F5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>16BFECF633105EF7DC84E4CD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CB3CF1E59B9303A79F58A8E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLVideoZoom.h</string>
+			<key>path</key>
+			<string>XLMediaZoom/XL/XLVideoZoom.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CB86B594984978D3685A4FCE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD8FD79F6D4891A574DB3E99</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>CC83FEB82F36629F7F73215D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick-AsyncImageView.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CCDC6F39AF98AB54C84A39C9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>3C1495F25C04EE7E99718FCB</string>
+			<key>targetProxy</key>
+			<string>60057967D0878E1818BC5C31</string>
+		</dict>
+		<key>D6765766E07EE57B7C8072CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1FAD5A664402CBA0B0F5A1E1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DAF2A8AA54C7F90E4F1BA83A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE8D2899354FB552A4CA9487</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B9FD7C803471E1F46E834846</string>
+				<string>A99DB155EA5A0AF0423896E8</string>
+				<string>91868BED0A0021B2589B1432</string>
+				<string>2268C50F9CD3275085DAE70B</string>
+				<string>1445195FC9A4D7DF5B98D442</string>
+				<string>A104E830B99F6EED9F980AA4</string>
+				<string>168BB5465C8FF3159E82A937</string>
+				<string>70FDADDA21DF2B1F53FD337D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DF947C6544D1915387D9C8CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CB3CF1E59B9303A79F58A8E7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E1819DCCB0FF9EF180DE9DD8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>7B710454AFBBA3956BF7634E</string>
+			<key>targetProxy</key>
+			<string>22B934637804A4E20819068C</string>
+		</dict>
+		<key>E266E0B0DB3C0566528A1137</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>989130467833ED991B7F17F6</string>
+				<string>B16894F3DF39A78F53F787BE</string>
+				<string>07CD59294ABAC5EE21C48F08</string>
+				<string>0AE6B962EBCF9FFAEAA4C1E7</string>
+				<string>ABC5CFFAF6F1F78FB5AE4B7A</string>
+				<string>22E8C4B4BD3B5FA74F8C877E</string>
+				<string>3DFEFF14F48E0A1DD839F637</string>
+				<string>C934836600ECBC479E9C014A</string>
+				<string>774C3D681B79BE5F7B55F09C</string>
+				<string>AD8FD79F6D4891A574DB3E99</string>
+				<string>2F4CB287C342D5BCC5B53EC8</string>
+				<string>04600165BDB6851D73559F56</string>
+				<string>5169026A1F5F98927E41A83E</string>
+				<string>91F9B1DEC919DE9C8AB13111</string>
+				<string>9D7AC1804CB7A81743832F87</string>
+				<string>7FDDB244C20BC6EAA4F20CB4</string>
+				<string>243642C581C312F32AA0099F</string>
+				<string>9EE1F5076657E95C07CEDE57</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>XHImageViewer</string>
+			<key>path</key>
+			<string>XHImageViewer</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E32E913DB58229FD52BA1098</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-blick-XHImageViewer-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E401EED821EA93843A8B5BC0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>E452DF70C44368E38A97A6CA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>E4CF572263BA740B8FC3E342</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>55E7AE9A6A251B0105FF8236</string>
+				<string>B269DE8CF414DFD6A11FA333</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E70CBD860624B810385DDDE7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E32E913DB58229FD52BA1098</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7D841FB312D42882D2F65B8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BE17B4BCEFD89B79455C62A2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-XHImageViewer/Pods-blick-XHImageViewer-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E874C9F2FA90CD87EFA11B4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-blick-AsyncImageView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EADABD776DEC0CCFE46E271E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A42A86EEC9E28F172A1DA1C4</string>
+				<string>76C647C805A0C348E5FE621E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EB488B3556790E89B01AA00A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5FB35AFC58A900A04E580C84</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>ECE6CA5BE3C54CD883B689D9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C45106B001D5F4B2B5F70569</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-blick-XLMediaZoom/Pods-blick-XLMediaZoom-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EF06979CE22738AE1951D0C3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLVideoZoom.m</string>
+			<key>path</key>
+			<string>XLMediaZoom/XL/XLVideoZoom.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F16C15D7D21F4FF19468BCDE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>04600165BDB6851D73559F56</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>F22C84170E79C45303445ADF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>4_1366x768.jpeg</string>
+			<key>path</key>
+			<string>Source/Resources/4_1366x768.jpeg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F242E442AB8750424C001659</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2673A737C4AE9E08257A2F22</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2CFDC059C5D3709988832A0F</string>
+				<string>A560BA8CDA941C328A02C82C</string>
+				<string>4725B7AA4549DF7C05F772C0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-blick-XLMediaZoom</string>
+			<key>productName</key>
+			<string>Pods-blick-XLMediaZoom</string>
+			<key>productReference</key>
+			<string>89B555E0CA59F7ACA0C245FB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>F8530E5A7F3DA95A675B103E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EF06979CE22738AE1951D0C3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>F876D97F26C9F7525288B38C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D6A860BBC2BFAD9FD96972D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>F8C6160D1D8A7ACD41E0420F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30EC21962260CF22670CB0F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA28E345A62F4D4B238470D2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A94FF35A352C6DA0B49B3C20</string>
+				<string>0902F48094E6F2278C627A08</string>
+				<string>BB98D7488CFE0324C9BF4DCD</string>
+				<string>89B555E0CA59F7ACA0C245FB</string>
+				<string>BBED1DEEE14C270B0350A1E2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBEC4C5EA0EF3CDF4E321701</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-blick-AsyncImageView-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF7EE2FCDD5A6952F5CD1207</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0AE6B962EBCF9FFAEAA4C1E7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>AAEC948F822BAF0997CB4133</string>
+	<string>B77479CF25D4B1FE8B8EC743</string>
 </dict>
 </plist>

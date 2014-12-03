@@ -4,6 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'blick' do
+pod 'AsyncImageView'
 pod 'XLMediaZoom'
 pod 'XHImageViewer'
 pod 'ZLSwipeableView'

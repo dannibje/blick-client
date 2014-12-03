@@ -11,7 +11,8 @@
 
 @interface CustomViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *image;
-@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) NSURL *imageUrl;
+
 @property (strong, nonatomic) XLMediaZoom *imageZoomView;
 
 - (void)imageDidTouch:(UIGestureRecognizer *)recognizer;

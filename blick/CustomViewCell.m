@@ -12,7 +12,7 @@
 
 @synthesize imageZoomView   = _imageZoomView;
 
-- (UIImageView *)imageView
+- (UIImageView *)image
 {
     if (_image) return _image;
     return _image;
@@ -20,7 +20,6 @@
 
 - (XLMediaZoom *)imageZoomView
 {
-    
     if (_imageZoomView) return _imageZoomView;
     if (_image.image == nil) return _imageZoomView;
     
