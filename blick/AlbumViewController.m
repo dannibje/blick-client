@@ -12,6 +12,7 @@
 #import "imageArray.h"
 #import "infoRow.h"
 #import "CustomUnwindSegue.h"
+#import "AsyncImageView.h"
 
 @interface AlbumViewController ()<XHImageViewerDelegate>
 
@@ -23,14 +24,14 @@
     [super viewDidLoad];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn setBackgroundImage:[UIImage imageNamed:@"like.jpg"] forState:UIControlStateNormal];
+    [btn setBackgroundImage:[UIImage imageNamed:@"blickIcon.jpg"] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(unwindToMenu) forControlEvents:UIControlEventTouchUpInside];
     UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(0,0, 50, 50)];
-    btn.frame = CGRectMake(10, 5, 40, 40); // where you can set your insets
+    btn.frame = CGRectMake(-5, 10, 30, 30); // where you can set your insets
     [customView addSubview:btn];
     
     self.navigationItem.hidesBackButton = YES;
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:customView];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:customView];
     
 //    self.flowLayout = [[UICollectionViewFlowLayout alloc] init];
 //    [self.collectionView setCollectionViewLayout:self.flowLayout];
@@ -116,22 +117,26 @@
     controller++;
     
     InfoRow *cell = [self.dataRows objectAtIndex:indexPath.row];
+    myCell.image.layer.cornerRadius = 4;
+    myCell.image.layer.masksToBounds = YES;
     myCell.image.image = nil;
     
-    #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-    dispatch_async(kBgQueue, ^{
-        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:cell.imageData]];
-        if (imgData) {
-            UIImage *image = [UIImage imageWithData:imgData];
-            if (image) {
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    CustomViewCell *updateCell = (id)[collectionView cellForItemAtIndexPath:indexPath];
-                    if (updateCell)
-                        updateCell.image.image = image;
-                });
-            }
-        }
-    });
+    myCell.image.imageURL = [NSURL URLWithString:cell.imageData];
+    
+//    #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+//    dispatch_async(kBgQueue, ^{
+//        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:cell.imageData]];
+//        if (imgData) {
+//            UIImage *image = [UIImage imageWithData:imgData];
+//            if (image) {
+//                dispatch_async(dispatch_get_main_queue(), ^{
+//                    CustomViewCell *updateCell = (id)[collectionView cellForItemAtIndexPath:indexPath];
+//                    if (updateCell)
+//                        updateCell.image.image = image;
+//                });
+//            }
+//        }
+//    });
     
     
     [myCell addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:myCell action:@selector(imageDidTouch:)]];

@@ -7,6 +7,7 @@
 //
 
 #import "CardView.h"
+#import "AsyncImageView.h"
 
 @implementation CardView
 -(instancetype)initWithFrame:(CGRect)frame {
@@ -46,18 +47,7 @@
     [self addSubview:imageView];
     imageView.image = nil;
     
-    #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-    dispatch_async(kBgQueue, ^{
-        NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:_cardData.imageData]];
-        if (imgData) {
-            UIImage *image = [UIImage imageWithData:imgData];
-            if (image) {
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    imageView.image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_cardData.imageData]]];
-                });
-            }
-        }
-    });
+    imageView.imageURL = [NSURL URLWithString:_cardData.imageData];
     //image.image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_cardData.imageData]]];
     
 }

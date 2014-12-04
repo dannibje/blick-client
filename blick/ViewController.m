@@ -37,6 +37,11 @@
     
     [self populateImageStack];
     [self populateAlbumArrays];
+    
+    [self.userImage.layer setMasksToBounds:YES];
+    [self.userImage.layer setCornerRadius:4];
+    [self.userImage.layer setBorderWidth:1];
+    [self.userImage.layer setBorderColor:[[UIColor whiteColor] CGColor]];
     [self updateImageUserData:self.currentIndex];
     
     //set up swipeable view
@@ -45,10 +50,7 @@
     [self.swipeableView setNeedsLayout];
     [self.swipeableView layoutIfNeeded];
     
-    // required data source
     self.swipeableView.dataSource = self;
-    
-    // optional delegate
     self.swipeableView.delegate = self;
     
 }
@@ -102,7 +104,7 @@
     
     for (int j = 0; j<[yachtImages count]; j++) {
         InfoRow *cell = [[InfoRow alloc]init];
-        cell.imageData =  [images objectAtIndex:j];
+        cell.imageData =  [yachtImages objectAtIndex:j];
         [sharedManager.myArray addObject:cell];
     }
 }
@@ -116,23 +118,19 @@
     self.userName.text = obj.name;
 }
 
-//===Custom Unwind Segue methods===
+//===Override default Unwind Segue method with nothing===
 
 - (IBAction)unwindFromViewController:(UIStoryboardSegue *)sender {
 }
 
+
+//
 - (IBAction)swipeLeftButtonAction:(UIButton *)sender {
     [self.swipeableView swipeTopViewToLeft];
 }
 - (IBAction)swipeRightButtonAction:(UIButton *)sender {
     [self.swipeableView swipeTopViewToRight];
 }
-
-//- (IBAction)reloadButtonAction:(UIButton *)sender {
-//    self.index = 0;
-//    [self.swipeableView discardAllSwipeableViews];
-//    [self.swipeableView loadNextSwipeableViewsIfNeeded];
-//}
 
 #pragma mark - ZLSwipeableViewDelegate
 - (void)swipeableView: (ZLSwipeableView *)swipeableView didSwipeLeft:(UIView *)view {

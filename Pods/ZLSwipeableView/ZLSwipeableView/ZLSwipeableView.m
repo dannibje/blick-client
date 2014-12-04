@@ -57,7 +57,7 @@ static const int numPrefetchedViews = 3;
 
     // Default properties
     self.isRotationEnabled = YES;
-    self.rotationDegree = 1;
+    self.rotationDegree = 1.5;
     self.rotationRelativeYOffsetFromCenter = 0.3;
 
     self.pushVelocityMagnitude = 1000;
